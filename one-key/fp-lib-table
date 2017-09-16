@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name usb_connector)(type KiCad)(uri "$(KIPRJMOD)/usb_connector.pretty")(options "")(descr ""))
+  (lib (name key_switch)(type KiCad)(uri "$(KIPRJMOD)/key_switch.pretty")(options "")(descr ""))
+  (lib (name qfn)(type KiCad)(uri "$(KIPRJMOD)/qfn.pretty")(options "")(descr ""))
+  (lib (name connectors)(type KiCad)(uri "$(KIPRJMOD)/connectors.pretty")(options "")(descr ""))
+)

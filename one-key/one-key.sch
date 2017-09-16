@@ -1,0 +1,335 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:silabs
+LIBS:switches
+LIBS:usb_connector
+LIBS:one-key-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C8051F38x_32 U1
+U 1 1 59BC66D6
+P 4500 2900
+F 0 "U1" H 3750 3900 60  0000 C CNN
+F 1 "C8051F38x_32" H 4500 2850 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4500 2350 60  0001 C CNN
+F 3 "" H 4500 2350 60  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59BC6727
+P 4200 1350
+F 0 "C1" H 4225 1450 50  0000 L CNN
+F 1 "0.1uF" V 4050 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 1200 50  0001 C CNN
+F 3 "" H 4200 1350 50  0001 C CNN
+	1    4200 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 59BC6754
+P 4200 1550
+F 0 "C2" H 4225 1650 50  0000 L CNN
+F 1 "1uF" V 4350 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 1400 50  0001 C CNN
+F 3 "" H 4200 1550 50  0001 C CNN
+	1    4200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 59BC686B
+P 4850 1550
+F 0 "C4" H 4875 1650 50  0000 L CNN
+F 1 "1uF" V 4700 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4888 1400 50  0001 C CNN
+F 3 "" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 59BC6871
+P 4850 1350
+F 0 "C3" H 4875 1450 50  0000 L CNN
+F 1 "0.1uF" V 5000 1200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4888 1200 50  0001 C CNN
+F 3 "" H 4850 1350 50  0001 C CNN
+	1    4850 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 59BC69D8
+P 5000 1750
+F 0 "#PWR01" H 5000 1500 50  0001 C CNN
+F 1 "GND" H 5000 1600 50  0000 C CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59BC6AED
+P 4050 1750
+F 0 "#PWR02" H 4050 1500 50  0001 C CNN
+F 1 "GND" H 4050 1600 50  0000 C CNN
+F 2 "" H 4050 1750 50  0001 C CNN
+F 3 "" H 4050 1750 50  0001 C CNN
+	1    4050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 59BC6B24
+P 4700 1100
+F 0 "#PWR03" H 4700 950 50  0001 C CNN
+F 1 "+3.3V" H 4700 1240 50  0000 C CNN
+F 2 "" H 4700 1100 50  0001 C CNN
+F 3 "" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2750 2450
+NoConn ~ 2350 2650
+$Comp
+L GND #PWR04
+U 1 1 59BC6CDD
+P 2450 2850
+F 0 "#PWR04" H 2450 2600 50  0001 C CNN
+F 1 "GND" H 2450 2700 50  0000 C CNN
+F 2 "" H 2450 2850 50  0001 C CNN
+F 3 "" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 2100
+$Comp
+L GND #PWR05
+U 1 1 59BC6D91
+P 4500 4350
+F 0 "#PWR05" H 4500 4100 50  0001 C CNN
+F 1 "GND" H 4500 4200 50  0000 C CNN
+F 2 "" H 4500 4350 50  0001 C CNN
+F 3 "" H 4500 4350 50  0001 C CNN
+	1    4500 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 3800
+NoConn ~ 5500 3700
+NoConn ~ 5500 3600
+NoConn ~ 5500 3500
+NoConn ~ 5500 3400
+NoConn ~ 5500 3300
+NoConn ~ 5500 3200
+NoConn ~ 5500 3100
+NoConn ~ 5500 2800
+NoConn ~ 5500 2700
+NoConn ~ 5500 2600
+NoConn ~ 5500 2500
+NoConn ~ 5500 2400
+NoConn ~ 5500 2300
+NoConn ~ 5500 2200
+NoConn ~ 5500 2100
+NoConn ~ 3500 3800
+NoConn ~ 3500 3700
+NoConn ~ 3500 3600
+NoConn ~ 3500 3500
+NoConn ~ 3500 3400
+NoConn ~ 3500 3300
+NoConn ~ 3500 3100
+Wire Wire Line
+	4700 1100 4700 1750
+Connection ~ 4700 1550
+Wire Wire Line
+	5000 1350 5000 1750
+Connection ~ 5000 1550
+Connection ~ 4700 1350
+Connection ~ 4350 1550
+Connection ~ 4350 1350
+Wire Wire Line
+	4050 1350 4050 1750
+Connection ~ 4050 1550
+Wire Wire Line
+	2750 2250 3500 2250
+Wire Wire Line
+	2750 2350 3500 2350
+Wire Wire Line
+	2450 2650 2450 2850
+Wire Wire Line
+	4500 4150 4500 4350
+$Comp
+L Conn_01x04 J2
+U 1 1 59BC8422
+P 2800 2850
+F 0 "J2" H 2800 3050 50  0000 C CNN
+F 1 "Conn_01x04" H 2800 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch1.27mm" H 2800 2850 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+	1    2800 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 59BC8562
+P 3150 3050
+F 0 "#PWR06" H 3150 2800 50  0001 C CNN
+F 1 "GND" H 3150 2900 50  0000 C CNN
+F 2 "" H 3150 3050 50  0001 C CNN
+F 3 "" H 3150 3050 50  0001 C CNN
+	1    3150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3050 3150 3050
+Wire Wire Line
+	3250 2550 3500 2550
+Wire Wire Line
+	3500 2650 3350 2650
+$Comp
+L SW_Push SW1
+U 1 1 59BC89F2
+P 2800 3650
+F 0 "SW1" H 2850 3750 50  0000 L CNN
+F 1 "SW_Push" H 2800 3590 50  0000 C CNN
+F 2 "key_switch:Cherry_MX_Matias_No_Silk_Border" H 2800 3850 50  0001 C CNN
+F 3 "" H 2800 3850 50  0001 C CNN
+	1    2800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 59BC8C94
+P 2500 3800
+F 0 "#PWR07" H 2500 3550 50  0001 C CNN
+F 1 "GND" H 2500 3650 50  0000 C CNN
+F 2 "" H 2500 3800 50  0001 C CNN
+F 3 "" H 2500 3800 50  0001 C CNN
+	1    2500 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3650 2500 3650
+Wire Wire Line
+	2500 3650 2500 3800
+$Comp
+L +5V #PWR08
+U 1 1 59BC8F84
+P 2850 1750
+F 0 "#PWR08" H 2850 1600 50  0001 C CNN
+F 1 "+5V" H 2850 1890 50  0000 C CNN
+F 2 "" H 2850 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1100 4350 1750
+Wire Wire Line
+	4350 1100 3150 1100
+Wire Wire Line
+	3150 1100 3150 2050
+Wire Wire Line
+	3150 2050 2750 2050
+Wire Wire Line
+	2850 1750 2850 2050
+Connection ~ 2850 2050
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 59BC904D
+P 2650 1700
+F 0 "#FLG09" H 2650 1775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 1850 50  0000 C CNN
+F 2 "" H 2650 1700 50  0001 C CNN
+F 3 "" H 2650 1700 50  0001 C CNN
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1700 2650 1800
+Wire Wire Line
+	2650 1800 2850 1800
+Connection ~ 2850 1800
+$Comp
+L +5V #PWR010
+U 1 1 59BC90F8
+P 3150 2750
+F 0 "#PWR010" H 3150 2600 50  0001 C CNN
+F 1 "+5V" H 3150 2890 50  0000 C CNN
+F 2 "" H 3150 2750 50  0001 C CNN
+F 3 "" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2750 3150 2750
+Wire Wire Line
+	3350 2650 3350 2850
+Wire Wire Line
+	3350 2850 3000 2850
+Wire Wire Line
+	3250 2550 3250 2950
+Wire Wire Line
+	3250 2950 3000 2950
+Wire Wire Line
+	3000 3650 3300 3650
+Wire Wire Line
+	3300 3650 3300 3200
+Wire Wire Line
+	3300 3200 3500 3200
+$Comp
+L USB_OTG J?
+U 1 1 59BC971A
+P 2450 2250
+F 0 "J?" H 2250 2700 50  0000 L CNN
+F 1 "USB_OTG" H 2250 2600 50  0000 L CNN
+F 2 "" H 2600 2200 50  0001 C CNN
+F 3 "" H 2600 2200 50  0001 C CNN
+	1    2450 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
