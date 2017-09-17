@@ -76,7 +76,11 @@ Note: currently the IRQ pin is not used in the code, but I'll add code to take a
 
 TODO
 
-For the mean time, refer to the [example layouts](https://github.com/ahtn/keyplus/tree/master/layouts), and the [list of available keycodes](https://github.com/ahtn/keyplus/blob/master/host-software/layout/mapped_keycodes.py#L8).
+For [prebuilt versions of the loader and firmware](https://github.com/ahtn/keyplus/releases).
+
+For the mean time, refer to the
+[example layouts](https://github.com/ahtn/keyplus/tree/master/layouts), and the
+[list of available keycodes](https://github.com/ahtn/keyplus/blob/master/host-software/layout/mapped_keycodes.py#L8).
 
 ## Current firmware limitations
 
