@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATXMEGA128A4U-MH
+D QFN44, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA16A4U-MH
+D QFN44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA16A4U-MH_EPAD
+D QFN44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA32A4U-MH
+D QFN44, 32k Flash, 4k Boot, 4k SRAM, 1k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA64A4U-MH
+D QFN44, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
