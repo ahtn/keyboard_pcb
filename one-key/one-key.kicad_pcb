@@ -60,7 +60,7 @@
     (mod_text_width 0.15)
     (pad_size 2 2)
     (pad_drill 1.35)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0.03)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF3F)
     (pcbplotparams
@@ -612,7 +612,7 @@
   (segment (start 159.3 99.6) (end 158.4 100.5) (width 0.155) (layer F.Cu) (net 8))
   (segment (start 158 101.04) (end 158 101) (width 0.155) (layer F.Cu) (net 8))
   (segment (start 158 101.04) (end 158.06 101.04) (width 0.155) (layer B.Cu) (net 8) (status 30))
-  (segment (start 165.85 94.6) (end 165.85 95.45) (width 0.155) (layer B.Cu) (net 16) (status 400000))
+  (segment (start 165.85 94.6) (end 165.85 95.45) (width 0.155) (layer B.Cu) (net 16))
   (segment (start 165.85 95.45) (end 166 95.6) (width 0.155) (layer B.Cu) (net 16) (tstamp 59BCCF0C))
   (segment (start 166 95.6) (end 166 95.46159) (width 0.155) (layer B.Cu) (net 16))
   (segment (start 166.35 95.11159) (end 166.35 94.6) (width 0.155) (layer B.Cu) (net 16) (tstamp 59BC9168))
