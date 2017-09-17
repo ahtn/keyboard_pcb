@@ -1,0 +1,11 @@
+Designator,Part,Value,Quantity,URL,Datasheet,Alternatives
+"R1, R2",,5.1k,2,https://www.digikey.com/product-detail/en/yageo/RC0402FR-075K1L/311-5.10KLRCT-ND/729571,,
+"R3, R4, R5",,10k,3,https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRCT-ND/729365,,
+"R6, R7",,100k,2,https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473,,
+C1,,1uF,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61A105KE01D/490-12701-2-ND/4905116,,
+C2,,10uF,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61C106KE15K/490-6473-1-ND/3845670,http://psearch.en.murata.com/capacitor/product/GRM21BR61C106KE15%23.html,
+"C3, C4, C5, C6",,0.1uF,4,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71A104KA01J/490-6322-2-ND/2610882,,
+D1,BAT54C,Common cathode diode array,1,https://www.digikey.com/product-detail/en/diodes-incorporated/BAT54C-7-F/BAT54C-FDITR-ND/717701,https://www.diodes.com/assets/Datasheets/ds11005.pdf,
+U1,MCP1700,3.3V regulator,1,https://www.digikey.com/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTTR-ND/652676,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf,
+U2,Atxmega32A4U,,1,https://www.digikey.com/product-detail/en/microchip-technology/ATXMEGA32A4U-MH/ATXMEGA32A4U-MH-ND/3046481,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf,"ATxmega64A4U, Atxmega128A4U"
+J1,DX07B024JJ2R1500,,1,https://www.digikey.com/product-detail/en/jae-electronics/DX07B024JJ2R1500/670-2847-1-ND/5395889,,DX07B024JJ1R1500
