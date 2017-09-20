@@ -93,7 +93,7 @@ finished yet. Some prominent ones:
 
 * Macro and hold keycodes can't be used in the layout config file yet.
 * No LED support yet (including indicators)
-* Pairing unifying mouse is not exposed to devices yet
+* Pairing Unifying mouse is not exposed to devices yet
 
 ## Testing key matrix
 
@@ -125,6 +125,25 @@ Note only devices directly connected by USB will report key presses using
 passthrough mode.
 
 
+## Unifying flasher
+
+First working version of the Unifying flashing script can be
+[found here](https://github.com/ahtn/keyplus/tree/master/host-software/uniflash).
+Currently this script has only been tested on Linux.
+
+There are two types of Unifying receivers that use different microcontrollers:
+nRF24LU1+ and CC2544.
+Only Unifying receivers that use the nRF24LU1+ are supported.
+
+You can check which kind you have by looking at the firmware version number
+of the receiver in Logitech's Unifying Software (or Solaar on Linux). If your
+receiver has a firmware number that starts with 12 (e.g. `012.005.00028`), then
+it uses the nRF24LU1+. If it starts with 24, then it uses the CC2544.
+
+You can find Unifying receivers on aliexpress. I've tried a few different types
+and they have all used the nRF24LU1+.
+
+
 ## xusb bootloader
 
 The bootloader installed on the ATxmega is the [xusb bootloader](https://github.com/ahtn/xusb-boot).
@@ -139,9 +158,16 @@ external programmer. This is done to protect the encryption keys that are
 stored in flash.  Also, for security reasons the bootloader will wipe SRAM on
 power up.
 
-
-## Trouble shooting
+## Trouble shooting and known issues
 
 * Make sure that the battery contacts have a firm connection. I've had issues
   sometimes with my homemade CR2032 holders where vibrations from typing would
   cause the contacts to be unreliable.
+* When using the xmega+nRF24L01+ as the wireless receiver, it will sometimes
+  drop packets [due to this issue](https://github.com/ahtn/keyplus/issues/3).
+  Should be fixed soon. The nRF24LU1+ implementation doesn't have this problem.
+* If you load broken firmware onto xmega, it won't be visible to the GUI
+  loader or flashing scripts. In this case you will need to enter it's bootloader
+  manually by shorting the RST pin to GND while it is connected via USB. The
+  bootloader is stored in a protected region of flash, so it should always be possible
+  to recover the device in this way.
