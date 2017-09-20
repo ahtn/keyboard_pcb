@@ -10,9 +10,10 @@ should be SS.
 ### Wiring key matrix
 
 The key matrix should be wired to the ROW and COL pins on the PCB. Wiring of the
-ROW and COL and column pins should start from the lowest number pin (i.e. `ROW0`
+ROW and COL pins should start from the lowest number pin (i.e. `ROW0`
 and `COL0`) and work up in consecutive order. The diodes in the key matrix should
 point from the COL to ROW pins (other scan modes not implemented yet).
+
 
 The `COL15, COL14, COL13, COL12` pins (underlined on the PCB) may also be used
 as `ROW` pins. They map to the following row pins:
@@ -27,16 +28,17 @@ Thus it is possible to have up to 120 keys connected using a 10x12 matrix.
 ### Wired split with I2C
 
 To connect to boards with I2C for wired split, connect the 5V, SDA, SCL, and
-GND pins between devices. You can connect several devices in this manner, they
+GND pins between devices. You can connect several devices in this manner. They
 just need to share 5V, SDA, SCL and GND pins.
 
-I would recommend **NOT** using TRRS connectors for wired split. While connecting and
-disconnecting the device the contacts inside the TRRS cable can short to one
-another. Instead I would recommend using micro USB ports, or another
-connector that doesn't short it's contacts when it is plugged/unplugged. Then
-you will be able to take advantage of the wireless/wired hot plugging
-functionality without worrying about damaging the hardware.  You can find
-male-to-male micro USB cables online with a bit of searching.
+I would recommend **NOT** using TRRS connectors for wired split. While
+connecting and disconnecting the cabel, the contacts inside the TRRS cable can
+short to one another. Instead, I would recommend using micro USB ports, or
+another connector that doesn't short it's contacts when it is
+plugged/unplugged. Then you will be able to take advantage of the
+wireless/wired hot plugging functionality without worrying about damaging the
+hardware.  You can find male-to-male micro USB cables online with a bit of
+searching.
 
 ### Wireless with nRF24L01+
 
@@ -59,6 +61,8 @@ To connect an nRF24L01+ module you will need to connect these pins:
 * MI -> MI / MISO
 * SS -> SS / CSN (Note: rev2 PCB use MO instead)
 * SCK -> SCK
+* GND -> GND
+* 3V -> 3.3V
 
 ![surface mount nRF24L01+ module pin out](https://raw.githubusercontent.com/ahtn/keyplus/master/notes/mini-nrf24l01-smd.jpg)
 
@@ -120,6 +124,7 @@ Where each line shows which keys in the matrix are currently being pressed.
 Note only devices directly connected by USB will report key presses using
 passthrough mode.
 
+
 ## xusb bootloader
 
 The bootloader installed on the ATxmega is the [xusb bootloader](https://github.com/ahtn/xusb-boot).
@@ -133,6 +138,7 @@ The lock bits on the ATxmega have been set to disable reading from flash by an
 external programmer. This is done to protect the encryption keys that are
 stored in flash.  Also, for security reasons the bootloader will wipe SRAM on
 power up.
+
 
 ## Trouble shooting
 
