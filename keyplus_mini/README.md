@@ -144,6 +144,20 @@ You can find Unifying receivers on aliexpress. I've tried a few different types
 and they have all used the nRF24LU1+.
 
 
+### How to add dongle to layout file
+
+To be able to use the dongle, you need to add it to your layout file:
+
+```yaml
+devices:
+  nrf_dongle:
+    id: 7       # unique id that is not used by any of your other devices
+    scan_mode: # rf dongle, so don't need a matrix
+      mode: no_matrix # options: col_row, pins, no_matrix
+```
+
+Then you need to load the layout file and RF configuration file to the device.
+
 ## xusb bootloader
 
 The bootloader installed on the ATxmega is the [xusb bootloader](https://github.com/ahtn/xusb-boot).
@@ -166,8 +180,10 @@ power up.
 * When using the xmega+nRF24L01+ as the wireless receiver, it will sometimes
   drop packets [due to this issue](https://github.com/ahtn/keyplus/issues/3).
   Should be fixed soon. The nRF24LU1+ implementation doesn't have this problem.
-* If you load broken firmware onto xmega, it won't be visible to the GUI
+* If you load broken firmware onto the xmega, it won't be visible to the GUI
   loader or flashing scripts. In this case you will need to enter it's bootloader
   manually by shorting the RST pin to GND while it is connected via USB. The
-  bootloader is stored in a protected region of flash, so it should always be possible
-  to recover the device in this way.
+  bootloader is stored in a protected region of flash, so the bootloader should
+  be unbrickable.
+* Currently if you have multiple devices acting as wireless receivers at the
+  same time, they will interfere with each other. This will be fixed later.
