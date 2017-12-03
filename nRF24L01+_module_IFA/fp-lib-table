@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name antenna)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/antenna.pretty")(options "")(descr ""))
+  (lib (name conn)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/conn.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CBT3125_14pin
+D Quadruple FET bus switch
+K bus switch
+$ENDCMP
+#
+$CMP FSUSB42
+D FSUSB42 USB 2.0 (480Mbps) UART Switch
+K bus switch, multiplexer, usb
+$ENDCMP
+#
+$CMP TS3USB221
+D TS3USB221 High-Speed USB 2.0 (480-Mbps) 1:2 Multiplexer
+K bus switch, multiplexer, usb
+$ENDCMP
+#
+$CMP TS3USB30E
+D TS3USB30E USB 2.0 (480Mbps) Switch
+K bus switch, multiplexer, usb
+$ENDCMP
+#
+#End Doc Library

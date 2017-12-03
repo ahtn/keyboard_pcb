@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1700
+D 250mA Low Quiscent Current LDO, 3.0V output, SOT-23
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+$ENDCMP
+#
+$CMP TPS6102x
+D Synchronous Boost Converter
+K TPS61020, TPS61024, TPS61025, TPS61026, TPS61027, TPS61028, TPS61029
+$ENDCMP
+#
+$CMP TPS6107x
+K TPS61070, TPS61071, TPS61072, TPS61073
+$ENDCMP
+#
+#End Doc Library

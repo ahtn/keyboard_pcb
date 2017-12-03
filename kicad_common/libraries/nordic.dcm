@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP nRF24L01+
+D nRF24L01+ 2.4GHz RF
+K nRF24L01+, nRF24L01
+$ENDCMP
+#
+$CMP nRF24L01_module
+D nRF24L01+ 2.4GHz RF module
+K nRF24, nRF24L01, RF
+$ENDCMP
+#
+#End Doc Library

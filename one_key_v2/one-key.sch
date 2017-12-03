@@ -1,0 +1,354 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:conn
+LIBS:silabs
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C1
+U 1 1 59BC6727
+P 4200 1350
+F 0 "C1" H 4225 1450 50  0000 L CNN
+F 1 "0.1uF" V 4050 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 1200 50  0001 C CNN
+F 3 "" H 4200 1350 50  0001 C CNN
+	1    4200 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 59BC6754
+P 4200 1550
+F 0 "C2" H 4225 1650 50  0000 L CNN
+F 1 "4.7uF" V 4350 1475 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 1400 50  0001 C CNN
+F 3 "" H 4200 1550 50  0001 C CNN
+	1    4200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 59BC686B
+P 4850 1550
+F 0 "C4" H 4875 1650 50  0000 L CNN
+F 1 "4.7uF" V 4700 1475 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4888 1400 50  0001 C CNN
+F 3 "" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 59BC6871
+P 4850 1350
+F 0 "C3" H 4875 1450 50  0000 L CNN
+F 1 "0.1uF" V 5000 1200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4888 1200 50  0001 C CNN
+F 3 "" H 4850 1350 50  0001 C CNN
+	1    4850 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 59BC69D8
+P 5000 1750
+F 0 "#PWR7" H 5000 1500 50  0001 C CNN
+F 1 "GND" H 5000 1600 50  0000 C CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 59BC6AED
+P 4050 1750
+F 0 "#PWR4" H 4050 1500 50  0001 C CNN
+F 1 "GND" H 4050 1600 50  0000 C CNN
+F 2 "" H 4050 1750 50  0001 C CNN
+F 3 "" H 4050 1750 50  0001 C CNN
+	1    4050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR5
+U 1 1 59BC6B24
+P 4700 1100
+F 0 "#PWR5" H 4700 950 50  0001 C CNN
+F 1 "+3.3V" H 4700 1240 50  0000 C CNN
+F 2 "" H 4700 1100 50  0001 C CNN
+F 3 "" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2275 2450
+NoConn ~ 1875 2650
+$Comp
+L GND #PWR1
+U 1 1 59BC6CDD
+P 1975 2850
+F 0 "#PWR1" H 1975 2600 50  0001 C CNN
+F 1 "GND" H 1975 2700 50  0000 C CNN
+F 2 "" H 1975 2850 50  0001 C CNN
+F 3 "" H 1975 2850 50  0001 C CNN
+	1    1975 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 59BC6D91
+P 4775 4275
+F 0 "#PWR6" H 4775 4025 50  0001 C CNN
+F 1 "GND" H 4775 4125 50  0000 C CNN
+F 2 "" H 4775 4275 50  0001 C CNN
+F 3 "" H 4775 4275 50  0001 C CNN
+	1    4775 4275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 2200
+NoConn ~ 5500 2100
+$Comp
+L Conn_01x04 J2
+U 1 1 59BC8422
+P 2375 2700
+F 0 "J2" H 2375 2900 50  0000 C CNN
+F 1 "Conn_01x04" H 2375 2400 50  0000 C CNN
+F 2 "conn:Pin_Header_Angled_1x04_Pitch1.27mm_no_silk_castellated" H 2375 2700 50  0001 C CNN
+F 3 "" H 2375 2700 50  0001 C CNN
+	1    2375 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 59BC8562
+P 2575 3050
+F 0 "#PWR2" H 2575 2800 50  0001 C CNN
+F 1 "GND" H 2575 2900 50  0000 C CNN
+F 2 "" H 2575 3050 50  0001 C CNN
+F 3 "" H 2575 3050 50  0001 C CNN
+	1    2575 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR8
+U 1 1 59BC8C94
+P 6300 2450
+F 0 "#PWR8" H 6300 2200 50  0001 C CNN
+F 1 "GND" H 6300 2300 50  0000 C CNN
+F 2 "" H 6300 2450 50  0001 C CNN
+F 3 "" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR3
+U 1 1 59BC8F84
+P 2850 1750
+F 0 "#PWR3" H 2850 1600 50  0001 C CNN
+F 1 "+5V" H 2850 1890 50  0000 C CNN
+F 2 "" H 2850 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 59BC904D
+P 2650 1700
+F 0 "#FLG2" H 2650 1775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2650 1850 50  0000 C CNN
+F 2 "" H 2650 1700 50  0001 C CNN
+F 3 "" H 2650 1700 50  0001 C CNN
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_OTG J1
+U 1 1 59BC971A
+P 1975 2250
+F 0 "J1" H 1775 2700 50  0000 L CNN
+F 1 "USB_OTG" H 1775 2600 50  0000 L CNN
+F 2 "conn_usb:USB_Micro_NoSlots_NoSilk" H 2125 2200 50  0001 C CNN
+F 3 "" H 2125 2200 50  0001 C CNN
+	1    1975 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 59BDFC11
+P 1525 2750
+F 0 "#FLG1" H 1525 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1525 2900 50  0000 C CNN
+F 2 "" H 1525 2750 50  0001 C CNN
+F 3 "" H 1525 2750 50  0001 C CNN
+	1    1525 2750
+	1    0    0    -1  
+$EndComp
+Text Label 3500 2250 2    60   ~ 0
+D+
+Text Label 3500 2350 2    60   ~ 0
+D-
+Text Label 3500 2550 2    60   ~ 0
+C2CK
+Text Label 3500 2650 2    60   ~ 0
+C2D
+$Comp
+L EFM8UB1_QFN20 U1
+U 1 1 59D1CD41
+P 4500 2900
+F 0 "U1" H 3750 3900 60  0000 C CNN
+F 1 "EFM8UB1_QFN20" H 4500 2850 60  0000 C CNN
+F 2 "qfn:QFN20_silabs" H 4500 2350 60  0001 C CNN
+F 3 "" H 4500 2350 60  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J3
+U 1 1 59D1D839
+P 2950 3300
+F 0 "J3" H 2950 3500 50  0000 C CNN
+F 1 "Conn_01x04" H 2950 3000 50  0000 C CNN
+F 2 "conn:Pin_Header_Angled_1x04_Pitch1.27mm_no_silk_castellated" H 2950 3300 50  0001 C CNN
+F 3 "" H 2950 3300 50  0001 C CNN
+	1    2950 3300
+	-1   0    0    1   
+$EndComp
+Connection ~ 4650 4150
+Wire Wire Line
+	4775 4150 4775 4275
+Connection ~ 4500 4150
+Wire Wire Line
+	4350 4150 4775 4150
+Wire Wire Line
+	1525 2850 1975 2850
+Wire Wire Line
+	1525 2750 1525 2850
+Connection ~ 3150 2050
+Wire Wire Line
+	3500 2050 3500 2100
+Wire Wire Line
+	5800 2300 5500 2300
+Connection ~ 2850 1800
+Wire Wire Line
+	2650 1800 2850 1800
+Wire Wire Line
+	2650 1700 2650 1800
+Connection ~ 2850 2050
+Wire Wire Line
+	2850 1750 2850 2600
+Wire Wire Line
+	2275 2050 3500 2050
+Wire Wire Line
+	3150 1100 3150 2050
+Wire Wire Line
+	4350 1100 3150 1100
+Wire Wire Line
+	4350 1100 4350 1750
+Wire Wire Line
+	6300 2300 6300 2450
+Wire Wire Line
+	6200 2300 6300 2300
+Wire Wire Line
+	2900 2650 3500 2650
+Wire Wire Line
+	3250 2550 3500 2550
+Wire Wire Line
+	1975 2850 1975 2650
+Wire Wire Line
+	2275 2350 3500 2350
+Wire Wire Line
+	2275 2250 3500 2250
+Connection ~ 4050 1550
+Wire Wire Line
+	4050 1350 4050 1750
+Connection ~ 4350 1350
+Connection ~ 4350 1550
+Connection ~ 4700 1350
+Connection ~ 5000 1550
+Wire Wire Line
+	5000 1350 5000 1750
+Connection ~ 4700 1550
+Wire Wire Line
+	4700 1100 4700 1750
+Wire Wire Line
+	2850 2600 2575 2600
+Wire Wire Line
+	3250 2550 3250 2800
+Wire Wire Line
+	3250 2800 2575 2800
+Wire Wire Line
+	2900 2650 2900 2700
+Wire Wire Line
+	2900 2700 2575 2700
+Wire Wire Line
+	2575 2900 2575 3050
+$Comp
+L Conn_01x04 J4
+U 1 1 59D1DF9A
+P 2950 3700
+F 0 "J4" H 2950 3900 50  0000 C CNN
+F 1 "Conn_01x04" H 3275 3800 50  0000 C CNN
+F 2 "conn:Pin_Header_Angled_1x04_Pitch1.27mm_no_silk_castellated" H 2950 3700 50  0001 C CNN
+F 3 "" H 2950 3700 50  0001 C CNN
+	1    2950 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 3800 3500 3800
+Wire Wire Line
+	3150 3700 3500 3700
+Wire Wire Line
+	3150 3600 3500 3600
+Wire Wire Line
+	3150 3500 3500 3500
+Wire Wire Line
+	3150 3400 3500 3400
+Wire Wire Line
+	3150 3300 3500 3300
+Wire Wire Line
+	3150 3200 3500 3200
+Wire Wire Line
+	3150 3100 3500 3100
+Text Label 3500 3100 2    60   ~ 0
+P0.0
+Text Label 3500 3200 2    60   ~ 0
+P0.1
+Text Label 3500 3300 2    60   ~ 0
+P0.2
+Text Label 3500 3400 2    60   ~ 0
+P0.3
+Text Label 3500 3500 2    60   ~ 0
+P0.4
+Text Label 3500 3600 2    60   ~ 0
+P0.5
+Text Label 3500 3700 2    60   ~ 0
+P0.6
+Text Label 3500 3800 2    60   ~ 0
+P0.7
+$Comp
+L SW_Push SW1
+U 1 1 5A1C99D7
+P 6000 2300
+F 0 "SW1" H 6050 2400 50  0000 L CNN
+F 1 "SW_Push" H 6000 2240 50  0000 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_No_Silk_Border" H 6000 2500 50  0001 C CNN
+F 3 "" H 6000 2500 50  0001 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
