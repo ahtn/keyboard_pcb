@@ -1,4 +1,4 @@
-# One key PCB
+# α-split
 
 ![Image of alpha_split PCB](https://rawgit.com/ahtn/keyboard_pcb/master/alpha_split/alpha_split.png)
 

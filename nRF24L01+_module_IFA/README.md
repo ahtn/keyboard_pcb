@@ -1,6 +1,6 @@
-# One key PCB
+# nRF24L01+ module with IFA
 
-![Image of alpha_split PCB](https://rawgit.com/ahtn/keyboard_pcb/master/nRF24L01+_module_IFA/nRF24L01+_module_IFA.png)
+![Image of nRF24L01+ module with IFA](https://rawgit.com/ahtn/keyboard_pcb/master/nRF24L01+_module_IFA/nRF24L01+_module_IFA.png)
 
 ## License
 
