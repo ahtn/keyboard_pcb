@@ -6,6 +6,7 @@ LIBS:regul
 LIBS:atmel
 LIBS:connector
 LIBS:microchip
+LIBS:keyplus_mini-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -796,7 +797,7 @@ U 1 1 5A25020D
 P 1825 5225
 F 0 "J1" H 1425 6675 50  0000 L CNN
 F 1 "USB_C_Receptacle" H 2225 6675 50  0000 R CNN
-F 2 "conn_usb:USB_TypeC_239FC14-00276T-H" H 1975 5225 50  0001 C CNN
+F 2 "conn_usb:USB_TypeC_Hirose_CX70M-24P1" H 1975 5225 50  0001 C CNN
 F 3 "" H 1975 5225 50  0001 C CNN
 	1    1825 5225
 	1    0    0    -1  

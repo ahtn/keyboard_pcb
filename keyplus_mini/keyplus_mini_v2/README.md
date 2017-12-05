@@ -1,6 +1,6 @@
-# keyplus mini PCB
+# keyplus mini v2 PCB
 
-![Image of keyplus mini PCB](https://rawgit.com/ahtn/keyboard_pcb/master/keyplus_mini/kicad/keyplus_mini.png)
+![Image of keyplus mini PCB](https://rawgit.com/ahtn/keyboard_pcb/master/keyplus_mini/keyplus_mini_v2/keyplus_mini.png)
 
 ## Firmware
 
