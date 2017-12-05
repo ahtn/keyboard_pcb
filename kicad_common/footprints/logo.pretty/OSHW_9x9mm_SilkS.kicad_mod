@@ -1,6 +1,6 @@
-(module svg2mod (layer F.Cu) (tedit 5A23C63E)
+(module OSHW_Logo (layer F.Cu) (tedit 5A23C63E)
   (attr virtual)
-  (fp_text reference svg2mod (at 0 -7.10764727302) (layer F.SilkS) hide
+  (fp_text reference OSHW_Logo (at 0 -7.10764727302) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_text value G*** (at 0 7.10764727302) (layer F.SilkS) hide

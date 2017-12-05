@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name conn_usb)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/conn_usb.pretty")(options "")(descr ""))
+  (lib (name qfn)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/qfn.pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/logo.pretty")(options "")(descr ""))
+  (lib (name nordic)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/nordic.pretty")(options "")(descr ""))
+  (lib (name kicad_util)(type KiCad)(uri "$(KIPRJMOD)/../kicad_common/footprints/kicad_util.pretty")(options "")(descr ""))
+)
