@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name connectors)(type KiCad)(uri "$(KIPRJMOD)/connectors.pretty")(options "")(descr ""))
-  (lib (name qfn)(type KiCad)(uri "$(KIPRJMOD)/qfn.pretty")(options "")(descr ""))
-  (lib (name headers)(type KiCad)(uri "$(KIPRJMOD)/headers.pretty")(options "")(descr ""))
-)
