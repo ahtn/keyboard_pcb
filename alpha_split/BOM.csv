@@ -1,0 +1,25 @@
+Designator,Part,Value,Quantity,Digi-key Part Number,Datasheet
+"C1, C2, C25","0805, 4.7uF",4.7uF,3,490-7214-1-ND,
+"C3, C4","0805, 1.0uF",1uF,2,490-1691-1-ND,
+"C5, C6, C7, C8-C19, C20-C23,  ","0805, 0.1uF",0.1uF,19,490-12558-1-ND,
+C24,"0805, 10uF",10uF,1,490-1718-1-ND,
+C26,"1206, 47uF",47uF,1,490-8337-1-ND,
+"R1, R6, R7, R8","0805, 10k",10k,4,311-10KARCT-ND,
+"R2, R3","0805, 470k",470k,2,311-470KARCT-ND,
+"R4,R5","0805, 100k",100k,2,311-100KARCT-ND,
+R9-R12,"0805, 5.1k",5.1k,4,311-5.1KARCT-ND ,
+D1,BAT54C-7-F,Common cathode diode array,1,BAT54C-FDICT-ND ,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D00-D35,1N4148W-7-F ,1N4148 Signal Diode,24,1N4148W-FDICT-ND,https://www.diodes.com/assets/Datasheets/ds30086.pdf
+U3,MCP1700T-3302E/TT,3.3V regulator,1,MCP1700T3302ETTCT-ND ,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
+U2,MCP1700T-3002E/TT,3.0V regulator,1,MCP1700T-3002E/TTCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
+U4,ATXMEGA32A4U-AU,XMEGA mcu,1,ATXMEGA32A4U-AURCT-ND ,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+"U7,U8,U9",FSUSB42MUX,Bus Switch,3,FSUSB42MUXCT-ND,https://www.fairchildsemi.com/datasheets/FS/FSUSB42.pdf
+U1,MCP73831T-2ACI/OT,Li-ion Charge IC 4.2V,1,MCP73831T-2ACI/OTCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+U5,74LVC1G34SE-7,Non-inverting Buffer,1,74LVC1G34SE-7DICT-ND,https://www.diodes.com/assets/Datasheets/74LVC1G34.pdf
+U6,,nRF24L01+ PCB module,1,,
+"J1, J2",670-2849-1-ND ,USB Type-C Receptacle,2,670-2849-1-ND ,https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/DX07B024XJ1_Dwg.pdf
+LED1-LED12,WS2812b,Addressable RGB LED,12,,
+BT1,BK-913,CR2032 Button Cell Clip,1,BK-913-ND,http://www.memoryprotectiondevices.com/datasheets/BK-913-datasheet.pdf
+BT2,S2B-PH-K-S(LF)(SN),2 Pin JST Connector,1,455-1719-ND,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+SW1,JS202011CQN,Slide Switch,1,401-2001-ND,http://www.ckswitches.com/media/1422/js.pdf
+SW2,PTS645SM43SMTR92 LFS,Push Button,1,CKN9112CT-ND,http://www.ckswitches.com/media/1471/pts645.pdf
