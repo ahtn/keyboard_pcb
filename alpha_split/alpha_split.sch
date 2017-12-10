@@ -511,7 +511,7 @@ U 1 1 5A1C0EDF
 P 6975 8275
 F 0 "K00" H 7025 8375 50  0000 L CNN
 F 1 "K00" H 6975 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 6975 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 6975 8475 50  0001 C CNN
 F 3 "" H 6975 8475 50  0001 C CNN
 	1    6975 8275
 	-1   0    0    -1  
@@ -533,7 +533,7 @@ U 1 1 5A1C12AC
 P 7525 8275
 F 0 "K01" H 7575 8375 50  0000 L CNN
 F 1 "K01" H 7525 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 7525 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 7525 8475 50  0001 C CNN
 F 3 "" H 7525 8475 50  0001 C CNN
 	1    7525 8275
 	-1   0    0    -1  
@@ -555,7 +555,7 @@ U 1 1 5A1C1390
 P 8075 8275
 F 0 "K02" H 8125 8375 50  0000 L CNN
 F 1 "K02" H 8075 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8075 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8075 8475 50  0001 C CNN
 F 3 "" H 8075 8475 50  0001 C CNN
 	1    8075 8275
 	1    0    0    -1  
@@ -577,7 +577,7 @@ U 1 1 5A1C146C
 P 8625 8275
 F 0 "K03" H 8675 8375 50  0000 L CNN
 F 1 "K03" H 8625 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8625 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8625 8475 50  0001 C CNN
 F 3 "" H 8625 8475 50  0001 C CNN
 	1    8625 8275
 	-1   0    0    -1  
@@ -599,7 +599,7 @@ U 1 1 5A1C3685
 P 9175 8275
 F 0 "K04" H 9225 8375 50  0000 L CNN
 F 1 "K04" H 9175 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9175 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9175 8475 50  0001 C CNN
 F 3 "" H 9175 8475 50  0001 C CNN
 	1    9175 8275
 	1    0    0    -1  
@@ -621,7 +621,7 @@ U 1 1 5A1C3691
 P 9725 8275
 F 0 "K05" H 9775 8375 50  0000 L CNN
 F 1 "K05" H 9725 8215 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9725 8475 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9725 8475 50  0001 C CNN
 F 3 "" H 9725 8475 50  0001 C CNN
 	1    9725 8275
 	-1   0    0    -1  
@@ -643,7 +643,7 @@ U 1 1 5A1C39D9
 P 6975 8800
 F 0 "K10" H 7025 8900 50  0000 L CNN
 F 1 "K10" H 6975 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 6975 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 6975 9000 50  0001 C CNN
 F 3 "" H 6975 9000 50  0001 C CNN
 	1    6975 8800
 	1    0    0    -1  
@@ -665,7 +665,7 @@ U 1 1 5A1C39E5
 P 7525 8800
 F 0 "K11" H 7575 8900 50  0000 L CNN
 F 1 "K11" H 7525 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 7525 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 7525 9000 50  0001 C CNN
 F 3 "" H 7525 9000 50  0001 C CNN
 	1    7525 8800
 	1    0    0    -1  
@@ -687,7 +687,7 @@ U 1 1 5A1C39F1
 P 8075 8800
 F 0 "K12" H 8125 8900 50  0000 L CNN
 F 1 "K12" H 8075 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8075 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8075 9000 50  0001 C CNN
 F 3 "" H 8075 9000 50  0001 C CNN
 	1    8075 8800
 	1    0    0    -1  
@@ -709,7 +709,7 @@ U 1 1 5A1C39FD
 P 8625 8800
 F 0 "K13" H 8675 8900 50  0000 L CNN
 F 1 "K13" H 8625 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8625 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8625 9000 50  0001 C CNN
 F 3 "" H 8625 9000 50  0001 C CNN
 	1    8625 8800
 	1    0    0    -1  
@@ -731,7 +731,7 @@ U 1 1 5A1C3A09
 P 9175 8800
 F 0 "K14" H 9225 8900 50  0000 L CNN
 F 1 "K14" H 9175 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9175 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9175 9000 50  0001 C CNN
 F 3 "" H 9175 9000 50  0001 C CNN
 	1    9175 8800
 	1    0    0    -1  
@@ -753,7 +753,7 @@ U 1 1 5A1C3A15
 P 9725 8800
 F 0 "K15" H 9775 8900 50  0000 L CNN
 F 1 "K15" H 9725 8740 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9725 9000 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9725 9000 50  0001 C CNN
 F 3 "" H 9725 9000 50  0001 C CNN
 	1    9725 8800
 	1    0    0    -1  
@@ -775,7 +775,7 @@ U 1 1 5A1C7533
 P 6975 9300
 F 0 "K20" H 7025 9400 50  0000 L CNN
 F 1 "K20" H 6975 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 6975 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 6975 9500 50  0001 C CNN
 F 3 "" H 6975 9500 50  0001 C CNN
 	1    6975 9300
 	-1   0    0    -1  
@@ -797,7 +797,7 @@ U 1 1 5A1C753F
 P 7525 9300
 F 0 "K21" H 7575 9400 50  0000 L CNN
 F 1 "K21" H 7525 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 7525 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 7525 9500 50  0001 C CNN
 F 3 "" H 7525 9500 50  0001 C CNN
 	1    7525 9300
 	-1   0    0    -1  
@@ -819,7 +819,7 @@ U 1 1 5A1C754B
 P 8075 9300
 F 0 "K22" H 8125 9400 50  0000 L CNN
 F 1 "K22" H 8075 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8075 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8075 9500 50  0001 C CNN
 F 3 "" H 8075 9500 50  0001 C CNN
 	1    8075 9300
 	-1   0    0    -1  
@@ -841,7 +841,7 @@ U 1 1 5A1C7557
 P 8625 9300
 F 0 "K23" H 8675 9400 50  0000 L CNN
 F 1 "K23" H 8625 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8625 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8625 9500 50  0001 C CNN
 F 3 "" H 8625 9500 50  0001 C CNN
 	1    8625 9300
 	-1   0    0    -1  
@@ -863,7 +863,7 @@ U 1 1 5A1C7563
 P 9175 9300
 F 0 "K24" H 9225 9400 50  0000 L CNN
 F 1 "K24" H 9175 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9175 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9175 9500 50  0001 C CNN
 F 3 "" H 9175 9500 50  0001 C CNN
 	1    9175 9300
 	-1   0    0    -1  
@@ -885,7 +885,7 @@ U 1 1 5A1C756F
 P 9725 9300
 F 0 "K25" H 9775 9400 50  0000 L CNN
 F 1 "K25" H 9725 9240 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9725 9500 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9725 9500 50  0001 C CNN
 F 3 "" H 9725 9500 50  0001 C CNN
 	1    9725 9300
 	-1   0    0    -1  
@@ -907,7 +907,7 @@ U 1 1 5A1C757B
 P 6975 9825
 F 0 "K30" H 7025 9925 50  0000 L CNN
 F 1 "K30" H 6975 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 6975 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 6975 10025 50  0001 C CNN
 F 3 "" H 6975 10025 50  0001 C CNN
 	1    6975 9825
 	1    0    0    -1  
@@ -929,7 +929,7 @@ U 1 1 5A1C7587
 P 7525 9825
 F 0 "K31" H 7575 9925 50  0000 L CNN
 F 1 "K31" H 7525 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 7525 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 7525 10025 50  0001 C CNN
 F 3 "" H 7525 10025 50  0001 C CNN
 	1    7525 9825
 	1    0    0    -1  
@@ -951,7 +951,7 @@ U 1 1 5A1C7593
 P 8075 9825
 F 0 "K32" H 8125 9925 50  0000 L CNN
 F 1 "K32" H 8075 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8075 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8075 10025 50  0001 C CNN
 F 3 "" H 8075 10025 50  0001 C CNN
 	1    8075 9825
 	1    0    0    -1  
@@ -973,7 +973,7 @@ U 1 1 5A1C759F
 P 8625 9825
 F 0 "K33" H 8675 9925 50  0000 L CNN
 F 1 "K33" H 8625 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 8625 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 8625 10025 50  0001 C CNN
 F 3 "" H 8625 10025 50  0001 C CNN
 	1    8625 9825
 	1    0    0    -1  
@@ -995,7 +995,7 @@ U 1 1 5A1C75AB
 P 9175 9825
 F 0 "K34" H 9225 9925 50  0000 L CNN
 F 1 "K34" H 9175 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9175 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9175 10025 50  0001 C CNN
 F 3 "" H 9175 10025 50  0001 C CNN
 	1    9175 9825
 	1    0    0    -1  
@@ -1017,7 +1017,7 @@ U 1 1 5A1C75B7
 P 9725 9825
 F 0 "K35" H 9775 9925 50  0000 L CNN
 F 1 "K35" H 9725 9765 50  0001 C CNN
-F 2 "switch_mx:Cherry_MX_Matias_NoSilk_Back" H 9725 10025 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_Slots_NoSilk_Back" H 9725 10025 50  0001 C CNN
 F 3 "" H 9725 10025 50  0001 C CNN
 	1    9725 9825
 	1    0    0    -1  
@@ -2443,9 +2443,7 @@ Connection ~ 12475 4400
 Wire Wire Line
 	12475 4400 12475 2900
 Wire Wire Line
-	11800 4400 12475 4400
-Wire Wire Line
-	12475 4400 12825 4400
+	11800 4400 12825 4400
 Wire Wire Line
 	14525 4850 14025 4850
 Wire Wire Line
@@ -2477,15 +2475,11 @@ Wire Wire Line
 Wire Wire Line
 	12525 4850 12825 4850
 Wire Wire Line
-	12525 4850 12525 5300
-Wire Wire Line
-	12525 5300 12525 6450
+	12525 4850 12525 6450
 Wire Wire Line
 	12400 4750 12825 4750
 Wire Wire Line
-	12400 4750 12400 5175
-Wire Wire Line
-	12400 5175 12400 6350
+	12400 4750 12400 6350
 Wire Wire Line
 	13225 2450 13225 2350
 Wire Wire Line
@@ -2531,9 +2525,7 @@ Wire Wire Line
 Connection ~ 7325 9300
 Connection ~ 7325 8800
 Wire Wire Line
-	7875 4025 8100 4025
-Wire Wire Line
-	8100 4025 8350 4025
+	7875 4025 8350 4025
 Wire Wire Line
 	7275 4025 7275 4125
 Wire Wire Line
@@ -2548,9 +2540,7 @@ Connection ~ 2650 5050
 Wire Wire Line
 	2650 5050 3100 5050
 Wire Wire Line
-	2650 4975 2650 5050
-Wire Wire Line
-	2650 5050 2650 5125
+	2650 4975 2650 5125
 Connection ~ 2650 4375
 Wire Wire Line
 	2650 4375 2650 4675
@@ -2565,13 +2555,7 @@ Wire Notes Line
 Wire Wire Line
 	5650 1350 5350 1350
 Wire Wire Line
-	1125 2000 2250 2000
-Wire Wire Line
-	2250 2000 4250 2000
-Wire Wire Line
-	4250 2000 4600 2000
-Wire Wire Line
-	4600 2000 4700 2000
+	1125 2000 4700 2000
 Connection ~ 2250 2000
 Wire Wire Line
 	2250 2425 2500 2425
@@ -2651,20 +2635,12 @@ Wire Wire Line
 	2425 4375 2425 3600
 Connection ~ 2875 4375
 Wire Wire Line
-	2300 4375 2425 4375
-Wire Wire Line
-	2425 4375 2650 4375
-Wire Wire Line
-	2650 4375 2875 4375
-Wire Wire Line
-	2875 4375 3150 4375
+	2300 4375 3150 4375
 Connection ~ 1350 5150
 Wire Wire Line
 	1350 4575 1400 4575
 Wire Wire Line
-	1350 4575 1350 5150
-Wire Wire Line
-	1350 5150 1350 5275
+	1350 4575 1350 5275
 Wire Wire Line
 	1200 5150 1350 5150
 Wire Wire Line
@@ -2682,11 +2658,7 @@ Connection ~ 9925 9600
 Connection ~ 9925 9100
 Connection ~ 9925 8575
 Wire Wire Line
-	9900 900  10600 900 
-Wire Wire Line
-	10600 900  11325 900 
-Wire Wire Line
-	11325 900  11575 900 
+	9900 900  11575 900 
 Connection ~ 6775 9300
 Connection ~ 6775 8800
 Connection ~ 7875 8800
@@ -2698,53 +2670,17 @@ Connection ~ 8975 8800
 Connection ~ 9525 9300
 Connection ~ 9525 8800
 Wire Wire Line
-	9525 7975 9525 8275
+	9525 7975 9525 9825
 Wire Wire Line
-	9525 8275 9525 8800
+	8975 7975 8975 9825
 Wire Wire Line
-	9525 8800 9525 9300
+	8425 7975 8425 9825
 Wire Wire Line
-	9525 9300 9525 9825
+	7875 7975 7875 9825
 Wire Wire Line
-	8975 7975 8975 8275
+	7325 7975 7325 9825
 Wire Wire Line
-	8975 8275 8975 8800
-Wire Wire Line
-	8975 8800 8975 9300
-Wire Wire Line
-	8975 9300 8975 9825
-Wire Wire Line
-	8425 7975 8425 8275
-Wire Wire Line
-	8425 8275 8425 8800
-Wire Wire Line
-	8425 8800 8425 9300
-Wire Wire Line
-	8425 9300 8425 9825
-Wire Wire Line
-	7875 7975 7875 8275
-Wire Wire Line
-	7875 8275 7875 8800
-Wire Wire Line
-	7875 8800 7875 9300
-Wire Wire Line
-	7875 9300 7875 9825
-Wire Wire Line
-	7325 7975 7325 8275
-Wire Wire Line
-	7325 8275 7325 8800
-Wire Wire Line
-	7325 8800 7325 9300
-Wire Wire Line
-	7325 9300 7325 9825
-Wire Wire Line
-	6775 7975 6775 8275
-Wire Wire Line
-	6775 8275 6775 8800
-Wire Wire Line
-	6775 8800 6775 9300
-Wire Wire Line
-	6775 9300 6775 9825
+	6775 7975 6775 9825
 Connection ~ 9375 10125
 Connection ~ 8825 10125
 Connection ~ 8275 10125
@@ -2758,106 +2694,42 @@ Connection ~ 8825 9100
 Connection ~ 8275 9100
 Connection ~ 7725 9100
 Wire Wire Line
-	7175 10125 7725 10125
+	7175 10125 10150 10125
 Wire Wire Line
-	7725 10125 8275 10125
+	7175 9600 10150 9600
 Wire Wire Line
-	8275 10125 8825 10125
-Wire Wire Line
-	8825 10125 9375 10125
-Wire Wire Line
-	9375 10125 9925 10125
-Wire Wire Line
-	9925 10125 10150 10125
-Wire Wire Line
-	7175 9600 7725 9600
-Wire Wire Line
-	7725 9600 8275 9600
-Wire Wire Line
-	8275 9600 8825 9600
-Wire Wire Line
-	8825 9600 9375 9600
-Wire Wire Line
-	9375 9600 9925 9600
-Wire Wire Line
-	9925 9600 10150 9600
-Wire Wire Line
-	7175 9100 7725 9100
-Wire Wire Line
-	7725 9100 8275 9100
-Wire Wire Line
-	8275 9100 8825 9100
-Wire Wire Line
-	8825 9100 9375 9100
-Wire Wire Line
-	9375 9100 9925 9100
-Wire Wire Line
-	9925 9100 10150 9100
+	7175 9100 10150 9100
 Connection ~ 9375 8575
 Connection ~ 8825 8575
 Connection ~ 8275 8575
 Connection ~ 7725 8575
 Wire Wire Line
-	7175 8575 7725 8575
-Wire Wire Line
-	7725 8575 8275 8575
-Wire Wire Line
-	8275 8575 8825 8575
-Wire Wire Line
-	8825 8575 9375 8575
-Wire Wire Line
-	9375 8575 9925 8575
-Wire Wire Line
-	9925 8575 10150 8575
+	7175 8575 10150 8575
 Connection ~ 9450 3250
 Connection ~ 9700 3250
 Connection ~ 9950 3250
 Connection ~ 10200 3250
 Wire Wire Line
-	9150 3250 9450 3250
-Wire Wire Line
-	9450 3250 9700 3250
-Wire Wire Line
-	9700 3250 9950 3250
-Wire Wire Line
-	9950 3250 10200 3250
-Wire Wire Line
-	10200 3250 10475 3250
+	9150 3250 10475 3250
 Wire Wire Line
 	14425 7500 14425 7350
 Wire Wire Line
-	13825 2850 14525 2850
+	13825 2850 15400 2850
 Wire Wire Line
-	14525 2850 15400 2850
+	13825 2950 15400 2950
 Wire Wire Line
-	13825 2950 14425 2950
+	13825 3250 15400 3250
 Wire Wire Line
-	14425 2950 15400 2950
-Wire Wire Line
-	13825 3250 14700 3250
-Wire Wire Line
-	14700 3250 15400 3250
-Wire Wire Line
-	8800 6225 9100 6225
-Wire Wire Line
-	9100 6225 9200 6225
-Wire Wire Line
-	9200 6225 9300 6225
-Wire Wire Line
-	9300 6225 9400 6225
+	8800 6225 9400 6225
 Connection ~ 9100 6225
 Connection ~ 9200 6225
 Connection ~ 9300 6225
 Wire Wire Line
 	9400 6225 9400 6450
 Wire Wire Line
-	7050 2800 7250 2800
+	7050 2800 7700 2800
 Wire Wire Line
-	7250 2800 7700 2800
-Wire Wire Line
-	7900 2400 7975 2400
-Wire Wire Line
-	7975 2400 8450 2400
+	7900 2400 8450 2400
 Wire Wire Line
 	7700 2800 7700 2700
 Connection ~ 7250 2800
@@ -2882,21 +2754,17 @@ Wire Wire Line
 Connection ~ 8100 4025
 Connection ~ 9150 3250
 Wire Wire Line
-	5350 5000 5350 5175
-Wire Wire Line
-	5350 5175 5350 5325
+	5350 5000 5350 5325
 Connection ~ 5350 5175
 Connection ~ 4250 2000
 Wire Wire Line
-	3175 3600 3425 3600
+	3175 3600 4250 3600
 Wire Notes Line
 	3750 2950 3750 1800
 Wire Notes Line
 	625  1800 625  2950
 Wire Wire Line
-	6750 3150 7000 3150
-Wire Wire Line
-	7000 3150 7250 3150
+	6750 3150 7250 3150
 Wire Notes Line
 	550  1550 550  5850
 Wire Notes Line
@@ -2921,28 +2789,18 @@ Connection ~ 11325 900
 Wire Wire Line
 	5650 3100 5425 3100
 Wire Wire Line
-	5650 1350 5650 1725
+	5650 1350 5650 3100
 Wire Wire Line
-	5650 1725 5650 2075
+	6075 2000 7700 2000
 Wire Wire Line
-	5650 2075 5650 3100
-Wire Wire Line
-	6075 2000 6450 2000
-Wire Wire Line
-	6450 2000 7700 2000
-Wire Wire Line
-	4700 1825 4700 2000
-Wire Wire Line
-	4700 2000 4700 2175
+	4700 1825 4700 2175
 Connection ~ 4700 2000
 Connection ~ 5650 2075
 Wire Wire Line
 	5650 1725 5550 1725
 Connection ~ 5650 1725
 Wire Wire Line
-	5550 2075 5650 2075
-Wire Wire Line
-	5650 2075 6075 2075
+	5550 2075 6075 2075
 Wire Wire Line
 	6075 2075 6075 2000
 Wire Wire Line
@@ -2963,9 +2821,7 @@ Wire Wire Line
 Connection ~ 14425 2950
 Connection ~ 14525 2850
 Wire Wire Line
-	13825 3150 14825 3150
-Wire Wire Line
-	14825 3150 15400 3150
+	13825 3150 15400 3150
 Wire Wire Line
 	14825 6450 14825 3150
 Connection ~ 14825 3150
@@ -2976,64 +2832,36 @@ Wire Wire Line
 Connection ~ 12525 5300
 Connection ~ 12400 5175
 Wire Wire Line
-	11650 5300 11775 5300
+	11650 5300 12525 5300
 Wire Wire Line
-	11775 5300 12525 5300
-Wire Wire Line
-	11650 5175 12000 5175
-Wire Wire Line
-	12000 5175 12400 5175
+	11650 5175 12400 5175
 Wire Wire Line
 	10150 4775 10775 4775
 Wire Wire Line
 	8000 4975 8350 4975
 Wire Wire Line
-	9150 3625 9150 3250
-Wire Wire Line
-	9150 3250 9150 3125
+	9150 3625 9150 3125
 Connection ~ 9150 3625
 Wire Wire Line
-	8850 3625 8950 3625
-Wire Wire Line
-	8950 3625 9050 3625
-Wire Wire Line
-	9050 3625 9150 3625
-Wire Wire Line
-	9150 3625 9250 3625
+	8850 3625 9250 3625
 Connection ~ 8950 3625
 Connection ~ 9050 3625
 Wire Wire Line
-	14900 7200 14900 7300
-Wire Wire Line
-	14900 7300 14900 7400
-Wire Wire Line
-	14900 7400 14900 7500
+	14900 7200 14900 7500
 Connection ~ 14900 7300
 Connection ~ 14900 7400
 Wire Wire Line
-	15400 10100 15500 10100
-Wire Wire Line
-	15500 10100 15600 10100
-Wire Wire Line
-	15600 10100 15700 10100
+	15400 10100 15700 10100
 Wire Wire Line
 	14900 8000 14900 8100
 Wire Wire Line
 	14900 8200 14900 8300
 Wire Wire Line
-	12025 7200 12025 7300
-Wire Wire Line
-	12025 7300 12025 7400
-Wire Wire Line
-	12025 7400 12025 7500
+	12025 7200 12025 7500
 Connection ~ 12025 7300
 Connection ~ 12025 7400
 Wire Wire Line
-	12525 10100 12625 10100
-Wire Wire Line
-	12625 10100 12725 10100
-Wire Wire Line
-	12725 10100 12825 10100
+	12525 10100 12825 10100
 Wire Wire Line
 	12025 8000 12025 8100
 Wire Wire Line
@@ -3173,21 +3001,15 @@ F 3 "" H 7675 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7475 3925 7475 4025
-Wire Wire Line
-	7475 4025 7475 4125
+	7475 3925 7475 4125
 Connection ~ 7475 4025
 Wire Wire Line
-	7875 3925 7875 4025
-Wire Wire Line
-	7875 4025 7875 4125
+	7875 3925 7875 4125
 Connection ~ 7875 4025
 Wire Wire Line
 	5775 2650 5775 2800
 Wire Wire Line
 	5775 2800 6450 2800
-Wire Wire Line
-	3425 3600 4250 3600
 Wire Wire Line
 	4250 3600 4250 2000
 $EndSCHEMATC
