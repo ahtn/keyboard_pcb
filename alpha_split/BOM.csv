@@ -14,11 +14,11 @@ U3,MCP1700T-3302E/TT,3.3V regulator,1,MCP1700T3302ETTCT-ND ,http://ww1.microchip
 U2,MCP1700T-3002E/TT,3.0V regulator,1,MCP1700T-3002E/TTCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 U4,ATXMEGA32A4U-AU,XMEGA mcu,1,ATXMEGA32A4U-AURCT-ND ,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
 "U7,U8,U9",FSUSB42MUX,Bus Switch,3,FSUSB42MUXCT-ND,https://www.fairchildsemi.com/datasheets/FS/FSUSB42.pdf
-U1,MCP73831T-2ACI/OT,Li-ion Charge IC 4.2V,1,MCP73831T-2ACI/OTCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+U1,MCP73832,Li-ion Charge IC 4.2V,1,MCP73832T-2ACI/OTCT-ND ,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
 U5,74LVC1G34SE-7,Non-inverting Buffer,1,74LVC1G34SE-7DICT-ND,https://www.diodes.com/assets/Datasheets/74LVC1G34.pdf
 U6,,nRF24L01+ PCB module,1,,
 "J1, J2",670-2849-1-ND ,USB Type-C Receptacle,2,670-2849-1-ND ,https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/DX07B024XJ1_Dwg.pdf
-LED1-LED12,WS2812b,Addressable RGB LED,12,,
+LED1-LED12,WS2812C,Addressable RGB LED,12,,
 BT1,BK-913,CR2032 Button Cell Clip,1,BK-913-ND,http://www.memoryprotectiondevices.com/datasheets/BK-913-datasheet.pdf
 BT2,S2B-PH-K-S(LF)(SN),2 Pin JST Connector,1,455-1719-ND,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 SW1,JS202011CQN,Slide Switch,1,401-2001-ND,http://www.ckswitches.com/media/1422/js.pdf

@@ -15,7 +15,7 @@
   (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole oval (at -3.175 -3.1 311.5) (size 2.5 4.2) (drill oval 1.5 3.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.525 -4.55) (size 2.5 3.575) (drill oval 1.5 2.575) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/../kicad_common/packages3d/switch_mx.packages3d/cherry_mx_blue_pcb.wrl
+  (model ../../../../code/keyboard_pcb/kicad_common/packages3d/switch_mx/cherry_mx_blue_stem.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

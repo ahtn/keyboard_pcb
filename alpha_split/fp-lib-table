@@ -8,4 +8,5 @@
   (lib (name battery)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/battery.pretty)(options "")(descr ""))
   (lib (name jumper)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/jumper.pretty)(options "")(descr ""))
   (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/logo.pretty)(options "")(descr ""))
+  (lib (name a)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/logo.pretty)(options "")(descr ""))
 )

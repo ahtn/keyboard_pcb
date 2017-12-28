@@ -1,4 +1,4 @@
-update=Sun 03 Dec 2017 22:56:31 AEST
+update=Tue 26 Dec 2017 12:50:41 AEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,18 +27,4 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../kicad_common
-[eeschema/libraries]
-LibName1=libraries/atmel
-LibName2=libraries/nordic
-LibName3=libraries/logic
-LibName4=libraries/microchip
-LibName5=libraries/bus_switches
-LibName6=libraries/rgb_led
-LibName7=libraries/switch
-LibName8=libraries/onsemi
-LibName9=libraries/kicad_util
-LibName10=power
-LibName11=device
-LibName12=conn
-LibName13=switches
+LibDir=

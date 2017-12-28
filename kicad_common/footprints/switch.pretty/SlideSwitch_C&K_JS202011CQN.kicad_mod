@@ -31,4 +31,9 @@
   (pad 1 thru_hole circle (at -2.5 1.65) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 2.5 -1.65) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -2.5 -1.65) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
+  (model Buttons_Switches_THT.3dshapes/SW_CuK_JS202011CQN_DPDT_Straight.wrl
+    (at (xyz -0.098 0.065 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
