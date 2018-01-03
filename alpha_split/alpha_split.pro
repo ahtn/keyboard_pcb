@@ -1,4 +1,4 @@
-update=Sun 03 Dec 2017 22:56:31 AEST
+update=Thu 04 Jan 2018 07:22:31 AEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -42,3 +42,4 @@ LibName10=power
 LibName11=device
 LibName12=conn
 LibName13=switches
+LibName14=libraries/Tag-Connect

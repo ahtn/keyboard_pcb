@@ -12,6 +12,7 @@ LIBS:power
 LIBS:device
 LIBS:conn
 LIBS:switches
+LIBS:Tag-Connect
 LIBS:alpha_split-cache
 EELAYER 25 0
 EELAYER END
@@ -2244,17 +2245,6 @@ F 3 "" H 11775 4800 50  0001 C CNN
 	1    11775 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Conn_02x03_Odd_Even J3
-U 1 1 5A239F54
-P 6625 4150
-F 0 "J3" H 6675 4350 50  0000 C CNN
-F 1 "PDI" H 6675 3950 50  0000 C CNN
-F 2 "Conn_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6625 4150 50  0001 C CNN
-F 3 "" H 6625 4150 50  0001 C CNN
-	1    6625 4150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6925 4150
 NoConn ~ 6425 4150
 Text Label 6425 4050 2    60   ~ 0
@@ -3042,4 +3032,15 @@ Wire Wire Line
 	14275 7500 14400 7500
 Wire Wire Line
 	14900 7500 14700 7500
+$Comp
+L TC2030-IDC J3
+U 1 1 5A4D5045
+P 6675 4150
+F 0 "J3" H 6625 3950 40  0000 L CNN
+F 1 "TC2030-IDC" H 6675 4350 40  0000 C CNN
+F 2 "Tag-Connect:TC2030-NL_SMALL_AND_IDC_PDI" H 6675 4150 60  0001 C CNN
+F 3 "" H 6675 4150 60  0001 C CNN
+	1    6675 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

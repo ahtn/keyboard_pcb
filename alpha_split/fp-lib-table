@@ -9,4 +9,5 @@
   (lib (name jumper)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/jumper.pretty)(options "")(descr ""))
   (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/logo.pretty)(options "")(descr ""))
   (lib (name a)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/logo.pretty)(options "")(descr ""))
+  (lib (name Tag-Connect)(type KiCad)(uri ${KIPRJMOD}/../kicad_common/footprints/Tag-Connect.pretty)(options KiCad)(descr ""))
 )
