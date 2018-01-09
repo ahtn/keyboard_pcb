@@ -1,0 +1,6 @@
+Designator,Part,Value,Quantity,Digi-key Part Number,Datasheet
+C1,"0805, 10uF",10uF,1,490-1718-1-ND,
+"C2,C3,C4,C5","0805, 0.1uF",0.1uF,4,490-12558-1-ND,
+U1,MIC5504-3.3YM5-TR,3.3V regulator,1,576-4764-1-ND,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580292
+U2,ATXMEGA32A4U-AU,XMEGA mcu,1,ATXMEGA32A4U-AURCT-ND ,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+J2,10118194-0001LF ,USB micro port,1,609-4618-1-ND,http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf

@@ -18,6 +18,12 @@ K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5216.pdf
 $ENDCMP
 #
+$CMP MIC550X
+D Single 300mA LDO
+K voltage regulator, LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
 $CMP TPS6102x
 D Synchronous Boost Converter
 K TPS61020, TPS61024, TPS61025, TPS61026, TPS61027, TPS61028, TPS61029

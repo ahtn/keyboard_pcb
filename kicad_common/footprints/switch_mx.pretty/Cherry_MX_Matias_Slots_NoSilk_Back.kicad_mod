@@ -3,9 +3,6 @@
   (fp_text reference REF** (at 3.25 0 90) (layer B.SilkS)
     (effects (font (thickness 0.3048)) (justify mirror))
   )
-  (fp_text value SW_MX (at 0 3.45) (layer B.Fab) hide
-    (effects (font (thickness 0.3048)) (justify mirror))
-  )
   (fp_line (start -7 -7) (end 7 -7) (layer F.SilkS) (width 0.15))
   (fp_line (start 7 -7) (end 7 7) (layer F.SilkS) (width 0.15))
   (fp_line (start 7 7) (end -7 7) (layer F.SilkS) (width 0.15))
