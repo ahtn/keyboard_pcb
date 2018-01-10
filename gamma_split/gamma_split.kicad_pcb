@@ -5574,7 +5574,7 @@
       (net 10 /RST))
   )
 
-  (gr_text α-split (at 26 35.5) (layer F.SilkS) (tstamp 5A4EE6BA)
+  (gr_text γ-split (at 26.5 35.5) (layer F.SilkS) (tstamp 5A4EE6BA)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "NO\nSW" (at 69 28.5) (layer F.SilkS)
