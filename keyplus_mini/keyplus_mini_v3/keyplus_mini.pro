@@ -1,4 +1,4 @@
-update=Mon 04 Dec 2017 15:58:20 AEST
+update=Wed 10 Jan 2018 20:27:18 AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -44,5 +44,4 @@ LibName2=device
 LibName3=conn
 LibName4=regul
 LibName5=libraries/atmel
-LibName6=libraries/connector
-LibName7=libraries/microchip
+LibName6=libraries/microchip

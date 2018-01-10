@@ -1,4 +1,4 @@
-update=Tue 05 Dec 2017 16:16:45 AEST
+update=Wed 10 Jan 2018 20:24:49 AEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -44,6 +44,5 @@ LibName2=device
 LibName3=conn
 LibName4=regul
 LibName5=libraries/atmel
-LibName6=libraries/connector
-LibName7=libraries/microchip
-LibName8=libraries/nordic
+LibName6=libraries/microchip
+LibName7=libraries/nordic

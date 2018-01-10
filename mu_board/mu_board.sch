@@ -4,7 +4,6 @@ LIBS:device
 LIBS:conn
 LIBS:regul
 LIBS:atmel
-LIBS:connector
 LIBS:microchip
 LIBS:nordic
 LIBS:mu_board-cache
@@ -470,17 +469,6 @@ F 3 "" H 6050 4500 50  0001 C CNN
 	1    6050 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L USB_C_Receptacle J1
-U 1 1 5A25020D
-P 1825 5225
-F 0 "J1" H 1425 6675 50  0000 L CNN
-F 1 "USB_C_Receptacle" H 2225 6675 50  0000 R CNN
-F 2 "conn_usb:USB_TypeC_U31F-24SNA0201" H 1975 5225 50  0001 C CNN
-F 3 "" H 1975 5225 50  0001 C CNN
-	1    1825 5225
-	1    0    0    -1  
-$EndComp
 Text Label 9950 3025 2    60   ~ 0
 RAW
 Text Label 9950 3125 2    60   ~ 0
@@ -911,4 +899,15 @@ Entry Wire Line
 	9400 4025 9500 3925
 Entry Wire Line
 	9400 3925 9500 3825
+$Comp
+L USB_C_Receptacle J?
+U 1 1 5A55EEE3
+P 1825 5225
+F 0 "J?" H 1425 6675 50  0000 L CNN
+F 1 "USB_C_Receptacle" H 2225 6675 50  0000 R CNN
+F 2 "" H 1975 5225 50  0001 C CNN
+F 3 "" H 1975 5225 50  0001 C CNN
+	1    1825 5225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
