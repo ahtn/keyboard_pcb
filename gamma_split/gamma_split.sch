@@ -13,7 +13,6 @@ LIBS:device
 LIBS:conn
 LIBS:switches
 LIBS:Tag-Connect
-LIBS:alpha_split-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1202,7 +1201,7 @@ U 1 1 5A1BCF17
 P 1125 2200
 F 0 "BT1" H 1225 2300 50  0000 L CNN
 F 1 "Battery" H 1225 2200 50  0000 L CNN
-F 2 "battery:CR2032_BK-913" V 1125 2260 50  0001 C CNN
+F 2 "battery:CR2032_MPD_BK-913_NoSolderMask" V 1125 2260 50  0001 C CNN
 F 3 "" V 1125 2260 50  0001 C CNN
 	1    1125 2200
 	1    0    0    -1  
@@ -2622,7 +2621,7 @@ Wire Notes Line
 Wire Notes Line
 	3750 2950 3750 1800
 Wire Wire Line
-	3175 3600 4250 3600
+	4250 3600 3175 3600
 Connection ~ 4250 2000
 Connection ~ 5350 5175
 Wire Wire Line
