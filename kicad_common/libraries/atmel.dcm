@@ -1,3 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATXMEGA128A3U-MH
+D QFN64, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA192A3U-MH
+D QFN64, 192k Flash, 8k Boot, 16k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA256A3U-MH
+D QFN64, 256k Flash, 8k Boot, 16k SRAM, 4k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA64A3U-MH
+D QFN64, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library

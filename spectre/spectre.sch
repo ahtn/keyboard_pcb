@@ -1,0 +1,1246 @@
+EESchema Schematic File Version 2
+LIBS:atmel
+LIBS:nordic
+LIBS:logic
+LIBS:microchip
+LIBS:bus_switches
+LIBS:rgb_led
+LIBS:switch
+LIBS:onsemi
+LIBS:kicad_util
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:switches
+LIBS:Tag-Connect
+LIBS:ghoul-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C2
+U 1 1 5A1B33BF
+P 9450 3400
+F 0 "C2" H 9475 3500 50  0000 L CNN
+F 1 "0.1uF" H 9475 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 3250 50  0001 C CNN
+F 3 "" H 9450 3400 50  0001 C CNN
+	1    9450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A1B33CC
+P 9450 3550
+F 0 "#PWR01" H 9450 3300 50  0001 C CNN
+F 1 "GND" H 9450 3400 50  0000 C CNN
+F 2 "" H 9450 3550 50  0001 C CNN
+F 3 "" H 9450 3550 50  0001 C CNN
+	1    9450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A1B34BB
+P 9700 3400
+F 0 "C3" H 9725 3500 50  0000 L CNN
+F 1 "0.1uF" H 9725 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9738 3250 50  0001 C CNN
+F 3 "" H 9700 3400 50  0001 C CNN
+	1    9700 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A1B34C1
+P 9700 3550
+F 0 "#PWR02" H 9700 3300 50  0001 C CNN
+F 1 "GND" H 9700 3400 50  0000 C CNN
+F 2 "" H 9700 3550 50  0001 C CNN
+F 3 "" H 9700 3550 50  0001 C CNN
+	1    9700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5A1B34FF
+P 9950 3400
+F 0 "C4" H 9975 3500 50  0000 L CNN
+F 1 "0.1uF" H 9975 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9988 3250 50  0001 C CNN
+F 3 "" H 9950 3400 50  0001 C CNN
+	1    9950 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A1B3505
+P 9950 3550
+F 0 "#PWR03" H 9950 3300 50  0001 C CNN
+F 1 "GND" H 9950 3400 50  0000 C CNN
+F 2 "" H 9950 3550 50  0001 C CNN
+F 3 "" H 9950 3550 50  0001 C CNN
+	1    9950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5A1B3545
+P 10200 3400
+F 0 "C5" H 10225 3500 50  0000 L CNN
+F 1 "0.1uF" H 10225 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10238 3250 50  0001 C CNN
+F 3 "" H 10200 3400 50  0001 C CNN
+	1    10200 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A1B354B
+P 10200 3550
+F 0 "#PWR04" H 10200 3300 50  0001 C CNN
+F 1 "GND" H 10200 3400 50  0000 C CNN
+F 2 "" H 10200 3550 50  0001 C CNN
+F 3 "" H 10200 3550 50  0001 C CNN
+	1    10200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5A1B35AD
+P 8650 2675
+F 0 "C1" H 8675 2775 50  0000 L CNN
+F 1 "10uF" H 8675 2575 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8688 2525 50  0001 C CNN
+F 3 "" H 8650 2675 50  0001 C CNN
+	1    8650 2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A1B746E
+P 9250 7300
+F 0 "#PWR05" H 9250 7050 50  0001 C CNN
+F 1 "GND" H 9250 7150 50  0000 C CNN
+F 2 "" H 9250 7300 50  0001 C CNN
+F 3 "" H 9250 7300 50  0001 C CNN
+	1    9250 7300
+	1    0    0    -1  
+$EndComp
+Text Label 7900 6775 2    60   ~ 0
+D+
+$Comp
+L GND #PWR06
+U 1 1 5A1BC3F3
+P 7450 2950
+F 0 "#PWR06" H 7450 2700 50  0001 C CNN
+F 1 "GND" H 7450 2800 50  0000 C CNN
+F 2 "" H 7450 2950 50  0001 C CNN
+F 3 "" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5A1BC3F9
+P 7150 2400
+F 0 "#PWR07" H 7150 2250 50  0001 C CNN
+F 1 "+5V" H 7150 2540 50  0000 C CNN
+F 2 "" H 7150 2400 50  0001 C CNN
+F 3 "" H 7150 2400 50  0001 C CNN
+	1    7150 2400
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 2100 0    60   ~ 0
+Voltage Regulation
+Text Label 7900 4025 2    60   ~ 0
+PDI
+$Comp
+L GND #PWR08
+U 1 1 5A417D08
+P 10075 2650
+F 0 "#PWR08" H 10075 2400 50  0001 C CNN
+F 1 "GND" H 10075 2500 50  0000 C CNN
+F 2 "" H 10075 2650 50  0001 C CNN
+F 3 "" H 10075 2650 50  0001 C CNN
+	1    10075 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10075 2400
+NoConn ~ 9575 2400
+Text Label 9575 2300 2    60   ~ 0
+PDI
+Text Label 9575 2500 2    60   ~ 0
+RST
+$Comp
+L TC2030-IDC J1
+U 1 1 5A4D5045
+P 9825 2400
+F 0 "J1" H 9775 2200 40  0000 L CNN
+F 1 "TC2030-IDC" H 9825 2600 40  0000 C CNN
+F 2 "Tag-Connect:TC2030-NL_SMALL_AND_IDC_PDI" H 9825 2400 60  0001 C CNN
+F 3 "" H 9825 2400 60  0001 C CNN
+	1    9825 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K4
+U 1 1 5A537C56
+P 2225 3425
+F 0 "K4" H 2275 3525 50  0000 L CNN
+F 1 "K00" H 2225 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 3625 50  0001 C CNN
+F 3 "" H 2225 3625 50  0001 C CNN
+	1    2225 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K5
+U 1 1 5A537C5C
+P 2225 3675
+F 0 "K5" H 2275 3775 50  0000 L CNN
+F 1 "K00" H 2225 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 3875 50  0001 C CNN
+F 3 "" H 2225 3875 50  0001 C CNN
+	1    2225 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K6
+U 1 1 5A537C62
+P 2225 3950
+F 0 "K6" H 2275 4050 50  0000 L CNN
+F 1 "K00" H 2225 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 4150 50  0001 C CNN
+F 3 "" H 2225 4150 50  0001 C CNN
+	1    2225 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K7
+U 1 1 5A537C68
+P 2225 4200
+F 0 "K7" H 2275 4300 50  0000 L CNN
+F 1 "K00" H 2225 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 4400 50  0001 C CNN
+F 3 "" H 2225 4400 50  0001 C CNN
+	1    2225 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K0
+U 1 1 5A537C6E
+P 2225 2450
+F 0 "K0" H 2275 2550 50  0000 L CNN
+F 1 "K00" H 2225 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 2650 50  0001 C CNN
+F 3 "" H 2225 2650 50  0001 C CNN
+	1    2225 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K1
+U 1 1 5A537C74
+P 2225 2700
+F 0 "K1" H 2275 2800 50  0000 L CNN
+F 1 "K00" H 2225 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 2900 50  0001 C CNN
+F 3 "" H 2225 2900 50  0001 C CNN
+	1    2225 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K2
+U 1 1 5A537C7A
+P 2225 2975
+F 0 "K2" H 2275 3075 50  0000 L CNN
+F 1 "K00" H 2225 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 3175 50  0001 C CNN
+F 3 "" H 2225 3175 50  0001 C CNN
+	1    2225 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K3
+U 1 1 5A537C80
+P 2225 3225
+F 0 "K3" H 2275 3325 50  0000 L CNN
+F 1 "K00" H 2225 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 2225 3425 50  0001 C CNN
+F 3 "" H 2225 3425 50  0001 C CNN
+	1    2225 3225
+	-1   0    0    -1  
+$EndComp
+Text Label 2025 2450 2    60   ~ 0
+KEY0
+Text Label 2025 2700 2    60   ~ 0
+KEY1
+Text Label 2025 2975 2    60   ~ 0
+KEY2
+Text Label 2025 3225 2    60   ~ 0
+KEY3
+Text Label 2025 3425 2    60   ~ 0
+KEY4
+Text Label 2025 3675 2    60   ~ 0
+KEY5
+Text Label 2025 3950 2    60   ~ 0
+KEY6
+Text Label 2025 4200 2    60   ~ 0
+KEY7
+Text Label 2850 2450 2    60   ~ 0
+KEY8
+Text Label 2850 2700 2    60   ~ 0
+KEY9
+Text Label 2850 2975 2    60   ~ 0
+KEY10
+Text Label 2850 3225 2    60   ~ 0
+KEY11
+Text Label 2850 3425 2    60   ~ 0
+KEY12
+Text Label 2850 3675 2    60   ~ 0
+KEY13
+Text Label 2850 3950 2    60   ~ 0
+KEY14
+Text Label 2850 4200 2    60   ~ 0
+KEY15
+Text Label 3750 2450 2    60   ~ 0
+KEY16
+Text Label 3750 2700 2    60   ~ 0
+KEY17
+Text Label 3750 2975 2    60   ~ 0
+KEY18
+Text Label 3750 3225 2    60   ~ 0
+KEY19
+Text Label 3750 3425 2    60   ~ 0
+KEY20
+Text Label 3750 3675 2    60   ~ 0
+KEY21
+Text Label 3750 3950 2    60   ~ 0
+KEY22
+Text Label 3750 4200 2    60   ~ 0
+KEY23
+$Comp
+L GND #PWR09
+U 1 1 5A538EA4
+P 2425 4400
+F 0 "#PWR09" H 2425 4150 50  0001 C CNN
+F 1 "GND" H 2425 4250 50  0000 C CNN
+F 2 "" H 2425 4400 50  0001 C CNN
+F 3 "" H 2425 4400 50  0001 C CNN
+	1    2425 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K12
+U 1 1 5A5391FC
+P 3050 3425
+F 0 "K12" H 3100 3525 50  0000 L CNN
+F 1 "K00" H 3050 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 3625 50  0001 C CNN
+F 3 "" H 3050 3625 50  0001 C CNN
+	1    3050 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K13
+U 1 1 5A539202
+P 3050 3675
+F 0 "K13" H 3100 3775 50  0000 L CNN
+F 1 "K00" H 3050 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 3875 50  0001 C CNN
+F 3 "" H 3050 3875 50  0001 C CNN
+	1    3050 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K14
+U 1 1 5A539208
+P 3050 3950
+F 0 "K14" H 3100 4050 50  0000 L CNN
+F 1 "K00" H 3050 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 4150 50  0001 C CNN
+F 3 "" H 3050 4150 50  0001 C CNN
+	1    3050 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K15
+U 1 1 5A53920E
+P 3050 4200
+F 0 "K15" H 3100 4300 50  0000 L CNN
+F 1 "K00" H 3050 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 4400 50  0001 C CNN
+F 3 "" H 3050 4400 50  0001 C CNN
+	1    3050 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K8
+U 1 1 5A539214
+P 3050 2450
+F 0 "K8" H 3100 2550 50  0000 L CNN
+F 1 "K00" H 3050 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 2650 50  0001 C CNN
+F 3 "" H 3050 2650 50  0001 C CNN
+	1    3050 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K9
+U 1 1 5A53921A
+P 3050 2700
+F 0 "K9" H 3100 2800 50  0000 L CNN
+F 1 "K00" H 3050 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 2900 50  0001 C CNN
+F 3 "" H 3050 2900 50  0001 C CNN
+	1    3050 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K10
+U 1 1 5A539220
+P 3050 2975
+F 0 "K10" H 3100 3075 50  0000 L CNN
+F 1 "K00" H 3050 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 3175 50  0001 C CNN
+F 3 "" H 3050 3175 50  0001 C CNN
+	1    3050 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K11
+U 1 1 5A539226
+P 3050 3225
+F 0 "K11" H 3100 3325 50  0000 L CNN
+F 1 "K00" H 3050 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3050 3425 50  0001 C CNN
+F 3 "" H 3050 3425 50  0001 C CNN
+	1    3050 3225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5A539233
+P 3250 4400
+F 0 "#PWR010" H 3250 4150 50  0001 C CNN
+F 1 "GND" H 3250 4250 50  0000 C CNN
+F 2 "" H 3250 4400 50  0001 C CNN
+F 3 "" H 3250 4400 50  0001 C CNN
+	1    3250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K20
+U 1 1 5A539506
+P 3950 3425
+F 0 "K20" H 4000 3525 50  0000 L CNN
+F 1 "K00" H 3950 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 3625 50  0001 C CNN
+F 3 "" H 3950 3625 50  0001 C CNN
+	1    3950 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K21
+U 1 1 5A53950C
+P 3950 3675
+F 0 "K21" H 4000 3775 50  0000 L CNN
+F 1 "K00" H 3950 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 3875 50  0001 C CNN
+F 3 "" H 3950 3875 50  0001 C CNN
+	1    3950 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K22
+U 1 1 5A539512
+P 3950 3950
+F 0 "K22" H 4000 4050 50  0000 L CNN
+F 1 "K00" H 3950 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 4150 50  0001 C CNN
+F 3 "" H 3950 4150 50  0001 C CNN
+	1    3950 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K23
+U 1 1 5A539518
+P 3950 4200
+F 0 "K23" H 4000 4300 50  0000 L CNN
+F 1 "K00" H 3950 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 4400 50  0001 C CNN
+F 3 "" H 3950 4400 50  0001 C CNN
+	1    3950 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K16
+U 1 1 5A53951E
+P 3950 2450
+F 0 "K16" H 4000 2550 50  0000 L CNN
+F 1 "K00" H 3950 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K17
+U 1 1 5A539524
+P 3950 2700
+F 0 "K17" H 4000 2800 50  0000 L CNN
+F 1 "K00" H 3950 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 2900 50  0001 C CNN
+F 3 "" H 3950 2900 50  0001 C CNN
+	1    3950 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K18
+U 1 1 5A53952A
+P 3950 2975
+F 0 "K18" H 4000 3075 50  0000 L CNN
+F 1 "K00" H 3950 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 3175 50  0001 C CNN
+F 3 "" H 3950 3175 50  0001 C CNN
+	1    3950 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K19
+U 1 1 5A539530
+P 3950 3225
+F 0 "K19" H 4000 3325 50  0000 L CNN
+F 1 "K00" H 3950 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 3950 3425 50  0001 C CNN
+F 3 "" H 3950 3425 50  0001 C CNN
+	1    3950 3225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5A53953D
+P 4150 4400
+F 0 "#PWR011" H 4150 4150 50  0001 C CNN
+F 1 "GND" H 4150 4250 50  0000 C CNN
+F 2 "" H 4150 4400 50  0001 C CNN
+F 3 "" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	1    0    0    -1  
+$EndComp
+Text Label 7900 3925 2    60   ~ 0
+RST
+$Comp
+L VCC #PWR012
+U 1 1 5A542A54
+P 9150 2350
+F 0 "#PWR012" H 9150 2200 50  0001 C CNN
+F 1 "VCC" H 9150 2500 50  0000 C CNN
+F 2 "" H 9150 2350 50  0001 C CNN
+F 3 "" H 9150 2350 50  0001 C CNN
+	1    9150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR013
+U 1 1 5A542D0E
+P 10075 2150
+F 0 "#PWR013" H 10075 2000 50  0001 C CNN
+F 1 "VCC" H 10075 2300 50  0000 C CNN
+F 2 "" H 10075 2150 50  0001 C CNN
+F 3 "" H 10075 2150 50  0001 C CNN
+	1    10075 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2525 7450 2525
+Wire Wire Line
+	7150 2400 7150 2525
+Connection ~ 9050 3625
+Connection ~ 8950 3625
+Connection ~ 9150 3625
+Connection ~ 9150 3250
+Wire Wire Line
+	9250 7075 9250 7300
+Connection ~ 9150 7075
+Connection ~ 9050 7075
+Connection ~ 8950 7075
+Wire Wire Line
+	8400 7075 9250 7075
+Connection ~ 10200 3250
+Connection ~ 9950 3250
+Connection ~ 9700 3250
+Connection ~ 9450 3250
+Wire Wire Line
+	10075 2650 10075 2500
+Wire Wire Line
+	10075 2300 10075 2150
+Wire Wire Line
+	2425 2450 2425 4400
+Connection ~ 2425 2700
+Connection ~ 2425 2975
+Connection ~ 2425 3225
+Connection ~ 2425 3425
+Connection ~ 2425 3675
+Connection ~ 2425 3950
+Connection ~ 2425 4200
+Wire Wire Line
+	3250 2450 3250 4400
+Connection ~ 3250 2700
+Connection ~ 3250 2975
+Connection ~ 3250 3225
+Connection ~ 3250 3425
+Connection ~ 3250 3675
+Connection ~ 3250 3950
+Connection ~ 3250 4200
+Wire Wire Line
+	4150 2450 4150 4400
+Connection ~ 4150 2700
+Connection ~ 4150 2975
+Connection ~ 4150 3225
+Connection ~ 4150 3425
+Connection ~ 4150 3675
+Connection ~ 4150 3950
+Connection ~ 4150 4200
+$Comp
+L USB_B J2
+U 1 1 5A537A9B
+P 6725 6675
+F 0 "J2" H 6525 7125 50  0000 L CNN
+F 1 "USB_B" H 6525 7025 50  0000 L CNN
+F 2 "conn_usb:USB_MicroB_Amphenol_10118194-0001LF" H 6875 6625 50  0001 C CNN
+F 3 "" H 6875 6625 50  0001 C CNN
+	1    6725 6675
+	1    0    0    -1  
+$EndComp
+Text Label 7900 6675 2    60   ~ 0
+D-
+Wire Wire Line
+	7900 6675 7300 6675
+Wire Wire Line
+	7900 6775 7300 6775
+Wire Wire Line
+	7300 6675 7200 6775
+Wire Wire Line
+	7300 6775 7200 6675
+Wire Wire Line
+	7200 6675 7025 6675
+Wire Wire Line
+	7200 6775 7025 6775
+$Comp
+L GND #PWR014
+U 1 1 5A53865E
+P 6725 7300
+F 0 "#PWR014" H 6725 7050 50  0001 C CNN
+F 1 "GND" H 6725 7150 50  0000 C CNN
+F 2 "" H 6725 7300 50  0001 C CNN
+F 3 "" H 6725 7300 50  0001 C CNN
+	1    6725 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 7075 6725 7300
+NoConn ~ 6625 7075
+$Comp
+L +5V #PWR015
+U 1 1 5A538CF8
+P 7025 6000
+F 0 "#PWR015" H 7025 5850 50  0001 C CNN
+F 1 "+5V" H 7025 6140 50  0000 C CNN
+F 2 "" H 7025 6000 50  0001 C CNN
+F 3 "" H 7025 6000 50  0001 C CNN
+	1    7025 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 6000 7025 6475
+$Comp
+L MIC550X U1
+U 1 1 5A53F937
+P 7900 2675
+F 0 "U1" H 7700 2975 60  0000 C CNN
+F 1 "MIC550X" H 7900 2375 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7900 2675 60  0001 C CNN
+F 3 "" H 7900 2675 60  0001 C CNN
+	1    7900 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2525 7450 2675
+Wire Wire Line
+	7450 2825 7450 2950
+$Comp
+L GND #PWR016
+U 1 1 5A540976
+P 8650 2925
+F 0 "#PWR016" H 8650 2675 50  0001 C CNN
+F 1 "GND" H 8650 2775 50  0000 C CNN
+F 2 "" H 8650 2925 50  0001 C CNN
+F 3 "" H 8650 2925 50  0001 C CNN
+	1    8650 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2925 8650 2825
+Wire Wire Line
+	8350 2525 9150 2525
+Connection ~ 9150 2525
+Connection ~ 8650 2525
+Wire Wire Line
+	9150 2350 9150 3625
+Wire Notes Line
+	7325 2150 7325 3250
+Wire Notes Line
+	7325 3250 8825 3250
+Wire Notes Line
+	8825 3250 8825 2150
+Wire Notes Line
+	8825 2150 7325 2150
+$Comp
+L ATXMEGA64A3U-MH U2
+U 1 1 5A56A47C
+P 8900 5325
+F 0 "U2" H 8050 6925 50  0000 L BNN
+F 1 "ATXMEGA64A3U-MH" H 9250 3625 50  0000 L BNN
+F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm" H 8900 5325 50  0001 C CIN
+F 3 "" H 8900 5325 50  0001 C CNN
+	1    8900 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3625 9250 3625
+Connection ~ 8850 3625
+Connection ~ 8750 3625
+Connection ~ 8750 7075
+Connection ~ 8850 7075
+$Comp
+L SW_Push K28
+U 1 1 5A56D888
+P 4750 3425
+F 0 "K28" H 4800 3525 50  0000 L CNN
+F 1 "K00" H 4750 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 3625 50  0001 C CNN
+F 3 "" H 4750 3625 50  0001 C CNN
+	1    4750 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K29
+U 1 1 5A56D88E
+P 4750 3675
+F 0 "K29" H 4800 3775 50  0000 L CNN
+F 1 "K00" H 4750 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 3875 50  0001 C CNN
+F 3 "" H 4750 3875 50  0001 C CNN
+	1    4750 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K30
+U 1 1 5A56D894
+P 4750 3950
+F 0 "K30" H 4800 4050 50  0000 L CNN
+F 1 "K00" H 4750 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 4150 50  0001 C CNN
+F 3 "" H 4750 4150 50  0001 C CNN
+	1    4750 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K31
+U 1 1 5A56D89A
+P 4750 4200
+F 0 "K31" H 4800 4300 50  0000 L CNN
+F 1 "K00" H 4750 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 4400 50  0001 C CNN
+F 3 "" H 4750 4400 50  0001 C CNN
+	1    4750 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K24
+U 1 1 5A56D8A0
+P 4750 2450
+F 0 "K24" H 4800 2550 50  0000 L CNN
+F 1 "K00" H 4750 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 2650 50  0001 C CNN
+F 3 "" H 4750 2650 50  0001 C CNN
+	1    4750 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K25
+U 1 1 5A56D8A6
+P 4750 2700
+F 0 "K25" H 4800 2800 50  0000 L CNN
+F 1 "K00" H 4750 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 2900 50  0001 C CNN
+F 3 "" H 4750 2900 50  0001 C CNN
+	1    4750 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K26
+U 1 1 5A56D8AC
+P 4750 2975
+F 0 "K26" H 4800 3075 50  0000 L CNN
+F 1 "K00" H 4750 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 3175 50  0001 C CNN
+F 3 "" H 4750 3175 50  0001 C CNN
+	1    4750 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K27
+U 1 1 5A56D8B2
+P 4750 3225
+F 0 "K27" H 4800 3325 50  0000 L CNN
+F 1 "K00" H 4750 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 4750 3425 50  0001 C CNN
+F 3 "" H 4750 3425 50  0001 C CNN
+	1    4750 3225
+	-1   0    0    -1  
+$EndComp
+Text Label 4550 2450 2    60   ~ 0
+KEY24
+Text Label 4550 2700 2    60   ~ 0
+KEY25
+Text Label 4550 2975 2    60   ~ 0
+KEY26
+Text Label 4550 3225 2    60   ~ 0
+KEY27
+Text Label 4550 3425 2    60   ~ 0
+KEY28
+Text Label 4550 3675 2    60   ~ 0
+KEY29
+Text Label 4550 3950 2    60   ~ 0
+KEY30
+Text Label 4550 4200 2    60   ~ 0
+KEY31
+Text Label 5375 2450 2    60   ~ 0
+KEY32
+Text Label 5375 2700 2    60   ~ 0
+KEY33
+Text Label 5375 2975 2    60   ~ 0
+KEY34
+Text Label 5375 3225 2    60   ~ 0
+KEY35
+Text Label 5375 3425 2    60   ~ 0
+KEY36
+Text Label 5375 3675 2    60   ~ 0
+KEY37
+Text Label 5375 3950 2    60   ~ 0
+KEY38
+Text Label 5375 4200 2    60   ~ 0
+KEY39
+Text Label 6275 2450 2    60   ~ 0
+KEY40
+Text Label 6275 2700 2    60   ~ 0
+KEY41
+Text Label 6275 2975 2    60   ~ 0
+KEY42
+Text Label 6275 3225 2    60   ~ 0
+KEY43
+Text Label 6275 3425 2    60   ~ 0
+KEY44
+Text Label 6275 3675 2    60   ~ 0
+KEY45
+Text Label 6275 3950 2    60   ~ 0
+KEY46
+Text Label 6275 4200 2    60   ~ 0
+KEY47
+$Comp
+L GND #PWR017
+U 1 1 5A56D8D0
+P 4950 4400
+F 0 "#PWR017" H 4950 4150 50  0001 C CNN
+F 1 "GND" H 4950 4250 50  0000 C CNN
+F 2 "" H 4950 4400 50  0001 C CNN
+F 3 "" H 4950 4400 50  0001 C CNN
+	1    4950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K36
+U 1 1 5A56D8D6
+P 5575 3425
+F 0 "K36" H 5625 3525 50  0000 L CNN
+F 1 "K00" H 5575 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 3625 50  0001 C CNN
+F 3 "" H 5575 3625 50  0001 C CNN
+	1    5575 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K37
+U 1 1 5A56D8DC
+P 5575 3675
+F 0 "K37" H 5625 3775 50  0000 L CNN
+F 1 "K00" H 5575 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 3875 50  0001 C CNN
+F 3 "" H 5575 3875 50  0001 C CNN
+	1    5575 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K38
+U 1 1 5A56D8E2
+P 5575 3950
+F 0 "K38" H 5625 4050 50  0000 L CNN
+F 1 "K00" H 5575 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 4150 50  0001 C CNN
+F 3 "" H 5575 4150 50  0001 C CNN
+	1    5575 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K39
+U 1 1 5A56D8E8
+P 5575 4200
+F 0 "K39" H 5625 4300 50  0000 L CNN
+F 1 "K00" H 5575 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 4400 50  0001 C CNN
+F 3 "" H 5575 4400 50  0001 C CNN
+	1    5575 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K32
+U 1 1 5A56D8EE
+P 5575 2450
+F 0 "K32" H 5625 2550 50  0000 L CNN
+F 1 "K00" H 5575 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 2650 50  0001 C CNN
+F 3 "" H 5575 2650 50  0001 C CNN
+	1    5575 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K33
+U 1 1 5A56D8F4
+P 5575 2700
+F 0 "K33" H 5625 2800 50  0000 L CNN
+F 1 "K00" H 5575 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 2900 50  0001 C CNN
+F 3 "" H 5575 2900 50  0001 C CNN
+	1    5575 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K34
+U 1 1 5A56D8FA
+P 5575 2975
+F 0 "K34" H 5625 3075 50  0000 L CNN
+F 1 "K00" H 5575 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 3175 50  0001 C CNN
+F 3 "" H 5575 3175 50  0001 C CNN
+	1    5575 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K35
+U 1 1 5A56D900
+P 5575 3225
+F 0 "K35" H 5625 3325 50  0000 L CNN
+F 1 "K00" H 5575 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 5575 3425 50  0001 C CNN
+F 3 "" H 5575 3425 50  0001 C CNN
+	1    5575 3225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5A56D906
+P 5775 4400
+F 0 "#PWR018" H 5775 4150 50  0001 C CNN
+F 1 "GND" H 5775 4250 50  0000 C CNN
+F 2 "" H 5775 4400 50  0001 C CNN
+F 3 "" H 5775 4400 50  0001 C CNN
+	1    5775 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K44
+U 1 1 5A56D90C
+P 6475 3425
+F 0 "K44" H 6525 3525 50  0000 L CNN
+F 1 "K00" H 6475 3365 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 3625 50  0001 C CNN
+F 3 "" H 6475 3625 50  0001 C CNN
+	1    6475 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K45
+U 1 1 5A56D912
+P 6475 3675
+F 0 "K45" H 6525 3775 50  0000 L CNN
+F 1 "K00" H 6475 3615 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 3875 50  0001 C CNN
+F 3 "" H 6475 3875 50  0001 C CNN
+	1    6475 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K46
+U 1 1 5A56D918
+P 6475 3950
+F 0 "K46" H 6525 4050 50  0000 L CNN
+F 1 "K00" H 6475 3890 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 4150 50  0001 C CNN
+F 3 "" H 6475 4150 50  0001 C CNN
+	1    6475 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K47
+U 1 1 5A56D91E
+P 6475 4200
+F 0 "K47" H 6525 4300 50  0000 L CNN
+F 1 "K00" H 6475 4140 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 4400 50  0001 C CNN
+F 3 "" H 6475 4400 50  0001 C CNN
+	1    6475 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K40
+U 1 1 5A56D924
+P 6475 2450
+F 0 "K40" H 6525 2550 50  0000 L CNN
+F 1 "K00" H 6475 2390 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 2650 50  0001 C CNN
+F 3 "" H 6475 2650 50  0001 C CNN
+	1    6475 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K41
+U 1 1 5A56D92A
+P 6475 2700
+F 0 "K41" H 6525 2800 50  0000 L CNN
+F 1 "K00" H 6475 2640 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 2900 50  0001 C CNN
+F 3 "" H 6475 2900 50  0001 C CNN
+	1    6475 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K42
+U 1 1 5A56D930
+P 6475 2975
+F 0 "K42" H 6525 3075 50  0000 L CNN
+F 1 "K00" H 6475 2915 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 3175 50  0001 C CNN
+F 3 "" H 6475 3175 50  0001 C CNN
+	1    6475 2975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_Push K43
+U 1 1 5A56D936
+P 6475 3225
+F 0 "K43" H 6525 3325 50  0000 L CNN
+F 1 "K00" H 6475 3165 50  0001 C CNN
+F 2 "switch_mx:Cherry_MX_Matias_NoSilk.B" H 6475 3425 50  0001 C CNN
+F 3 "" H 6475 3425 50  0001 C CNN
+	1    6475 3225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5A56D93C
+P 6675 4400
+F 0 "#PWR019" H 6675 4150 50  0001 C CNN
+F 1 "GND" H 6675 4250 50  0000 C CNN
+F 2 "" H 6675 4400 50  0001 C CNN
+F 3 "" H 6675 4400 50  0001 C CNN
+	1    6675 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2450 4950 4400
+Connection ~ 4950 2700
+Connection ~ 4950 2975
+Connection ~ 4950 3225
+Connection ~ 4950 3425
+Connection ~ 4950 3675
+Connection ~ 4950 3950
+Connection ~ 4950 4200
+Wire Wire Line
+	5775 2450 5775 4400
+Connection ~ 5775 2700
+Connection ~ 5775 2975
+Connection ~ 5775 3225
+Connection ~ 5775 3425
+Connection ~ 5775 3675
+Connection ~ 5775 3950
+Connection ~ 5775 4200
+Wire Wire Line
+	6675 2450 6675 4400
+Connection ~ 6675 2700
+Connection ~ 6675 2975
+Connection ~ 6675 3225
+Connection ~ 6675 3425
+Connection ~ 6675 3675
+Connection ~ 6675 3950
+Connection ~ 6675 4200
+$Comp
+L C C6
+U 1 1 5A576E9B
+P 10425 3400
+F 0 "C6" H 10450 3500 50  0000 L CNN
+F 1 "0.1uF" H 10450 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10463 3250 50  0001 C CNN
+F 3 "" H 10425 3400 50  0001 C CNN
+	1    10425 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5A576EA1
+P 10425 3550
+F 0 "#PWR020" H 10425 3300 50  0001 C CNN
+F 1 "GND" H 10425 3400 50  0000 C CNN
+F 2 "" H 10425 3550 50  0001 C CNN
+F 3 "" H 10425 3550 50  0001 C CNN
+	1    10425 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10425 3250
+Wire Wire Line
+	9150 3250 10650 3250
+$Comp
+L C C7
+U 1 1 5A5770CB
+P 10650 3400
+F 0 "C7" H 10675 3500 50  0000 L CNN
+F 1 "0.1uF" H 10675 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10688 3250 50  0001 C CNN
+F 3 "" H 10650 3400 50  0001 C CNN
+	1    10650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5A5770D1
+P 10650 3550
+F 0 "#PWR021" H 10650 3300 50  0001 C CNN
+F 1 "GND" H 10650 3400 50  0000 C CNN
+F 2 "" H 10650 3550 50  0001 C CNN
+F 3 "" H 10650 3550 50  0001 C CNN
+	1    10650 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10650 3250
+Connection ~ 8650 7075
+Text Label 7900 5925 2    60   ~ 0
+KEY0
+Text Label 7900 5825 2    60   ~ 0
+KEY1
+Text Label 7900 5725 2    60   ~ 0
+KEY2
+Text Label 7900 5625 2    60   ~ 0
+KEY3
+Text Label 7900 6025 2    60   ~ 0
+KEY4
+Text Label 7900 6125 2    60   ~ 0
+KEY5
+Text Label 7900 6575 2    60   ~ 0
+KEY6
+Text Label 7900 6475 2    60   ~ 0
+KEY7
+Text Label 9900 6775 0    60   ~ 0
+KEY8
+Text Label 9900 6675 0    60   ~ 0
+KEY9
+Text Label 9900 6575 0    60   ~ 0
+KEY10
+Text Label 9900 6475 0    60   ~ 0
+KEY11
+Text Label 7900 5075 2    60   ~ 0
+KEY12
+Text Label 7900 4975 2    60   ~ 0
+KEY13
+Text Label 7900 4875 2    60   ~ 0
+KEY14
+Text Label 7900 4775 2    60   ~ 0
+KEY15
+Text Label 7900 6225 2    60   ~ 0
+KEY16
+Text Label 7900 6325 2    60   ~ 0
+KEY17
+Text Label 9900 6325 0    60   ~ 0
+KEY18
+Text Label 9900 6225 0    60   ~ 0
+KEY19
+Text Label 9900 6125 0    60   ~ 0
+KEY20
+Text Label 9900 6025 0    60   ~ 0
+KEY21
+Text Label 9900 5925 0    60   ~ 0
+KEY22
+Text Label 9900 5825 0    60   ~ 0
+KEY23
+Text Label 7900 5175 2    60   ~ 0
+KEY24
+Text Label 7900 5275 2    60   ~ 0
+KEY25
+Text Label 7900 5375 2    60   ~ 0
+KEY26
+Text Label 7900 5475 2    60   ~ 0
+KEY27
+Text Label 7900 4525 2    60   ~ 0
+KEY28
+Text Label 7900 4625 2    60   ~ 0
+KEY29
+Text Label 9900 5475 0    60   ~ 0
+KEY30
+Text Label 9900 5375 0    60   ~ 0
+KEY31
+Text Label 9900 5275 0    60   ~ 0
+KEY32
+Text Label 9900 5175 0    60   ~ 0
+KEY33
+Text Label 9900 5625 0    60   ~ 0
+KEY34
+Text Label 9900 5725 0    60   ~ 0
+KEY35
+Text Label 9900 3925 0    60   ~ 0
+KEY36
+Text Label 9900 4025 0    60   ~ 0
+KEY37
+Text Label 9900 4125 0    60   ~ 0
+KEY38
+Text Label 9900 4225 0    60   ~ 0
+KEY39
+Text Label 9900 4325 0    60   ~ 0
+KEY40
+Text Label 9900 4425 0    60   ~ 0
+KEY41
+Text Label 9900 4525 0    60   ~ 0
+KEY42
+Text Label 9900 4625 0    60   ~ 0
+KEY43
+Text Label 9900 4775 0    60   ~ 0
+KEY44
+Text Label 9900 4875 0    60   ~ 0
+KEY45
+Text Label 9900 5075 0    60   ~ 0
+KEY46
+Text Label 9900 4975 0    60   ~ 0
+KEY47
+Wire Wire Line
+	8350 2825 8350 2525
+$EndSCHEMATC
