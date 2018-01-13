@@ -1,6 +1,6 @@
-Designator,Part,Value,Quantity,Digi-key Part Number,Datasheet
-C1,"0805, 10uF",10uF,1,490-1718-1-ND,
-C2-C7,"0805, 0.1uF",0.1uF,4,490-12558-1-ND,
-U1,MIC5504-3.3YM5-TR,3.3V regulator,1,576-4764-1-ND,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580292
-U2,ATXMEGA64A3U-MHR,XMEGA mcu,1,ATXMEGA64A3U-MHRCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
-J2,10118194-0001LF ,USB micro port,1,609-4618-1-ND,http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
+Designator,Part,Value,Quantity,Digi-key Part Number,Datasheet,Alternative
+C1,"0805, 10uF",10uF,1,490-1718-1-ND,,
+C2-C7,"0805, 0.1uF",0.1uF,4,490-12558-1-ND,,
+U1,MIC5504-3.3YM5-TR,3.3V regulator,1,576-4764-1-ND,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580292,
+U2,ATXMEGA64A3U-MHR,XMEGA mcu,1,ATXMEGA64A3U-MHRCT-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf,ATXMEGA32C3-MH
+J2,10118194-0001LF ,USB micro port,1,609-4618-1-ND,http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf,

@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATXMEGA128A1-AU
+D TQFP100, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8067-8-and-16-bit-AVR-Microcontrollers-ATxmega64A1-ATxmega128A1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA128A1U-AU
+D TQFP100, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, USB, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8385-8-and-16-bit-AVR-Microcontroller-ATxmega64A1U-ATxmega128A1U_datasheet.pdf
+$ENDCMP
+#
 $CMP ATXMEGA128A3U-MH
 D QFN64, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA192A1-AU
+D TQFP100, 192k Flash, 8k Boot, 16k SRAM, 2k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8067-8-and-16-bit-AVR-Microcontrollers-ATxmega64A1-ATxmega128A1_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATXMEGA192A3U-MH
@@ -12,10 +30,34 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
 $ENDCMP
 #
+$CMP ATXMEGA256A1-AU
+D TQFP100, 256k Flash, 8k Boot, 16k SRAM, 4k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8067-8-and-16-bit-AVR-Microcontrollers-ATxmega64A1-ATxmega128A1_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATXMEGA256A3U-MH
 D QFN64, 256k Flash, 8k Boot, 16k SRAM, 4k EEPROM, JTAG, USB
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA384A1-AU
+D ATXMEGA128A1, TQFP100, 384k Flash, 8k Boot, 32k SRAM, 4k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8067-8-and-16-bit-AVR-Microcontrollers-ATxmega64A1-ATxmega128A1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA64A1-AU
+D TQFP100, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8067-8-and-16-bit-AVR-Microcontrollers-ATxmega64A1-ATxmega128A1_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATXMEGA64A1U-AU
+D TQFP100, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, USB, JTAG
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8385-8-and-16-bit-AVR-Microcontroller-ATxmega64A1U-ATxmega128A1U_datasheet.pdf
 $ENDCMP
 #
 $CMP ATXMEGA64A3U-MH
