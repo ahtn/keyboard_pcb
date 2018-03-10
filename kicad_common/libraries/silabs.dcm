@@ -15,4 +15,16 @@ D C8051F38x 32 pin
 K C8051F381, C8051F383, C8051F385, C8051F387, C8051F38C, 8051, 8-bit
 $ENDCMP
 #
+$CMP EFM8UB2_32
+D efm8ub2 32 pin
+K efm8
+F http://www.silabs.com/documents/public/data-sheets/efm8ub2-datasheet.pdf
+$ENDCMP
+#
+$CMP efm8ub2_32
+D efm8ub2 32 pin
+K efm8
+F http://www.silabs.com/documents/public/data-sheets/efm8ub2-datasheet.pdf
+$ENDCMP
+#
 #End Doc Library

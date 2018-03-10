@@ -1,4 +1,4 @@
-update=Thu 11 Jan 2018 09:03:22 AEST
+update=Tue 06 Mar 2018 20:21:13 AEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,3 +43,4 @@ LibName11=device
 LibName12=conn
 LibName13=switches
 LibName14=libraries/Tag-Connect
+LibName15=libraries/conn_usb

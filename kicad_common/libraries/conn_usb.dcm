@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB_Type_C_2.0_Receptacle
+D USB Type-C 2.0 Receptacle connector
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
+$ENDCMP
+#
+#End Doc Library
