@@ -1,11 +1,12 @@
-Designator,Part,Value,Quantity,Digi-key Part Number,Datasheet
-"R1, R2",,5.1k,2,311-5.10KLRCT-ND ,
-"R3, R4, R5",,10k,3,311-10KJRCT-ND ,
-"R6, R7",,100k,2,311-100KLRCT-ND ,
-C1,,1uF,1,490-12701-2-ND,
-C2,,10uF,1,490-6473-1-ND,http://psearch.en.murata.com/capacitor/product/GRM21BR61C106KE15%23.html
-"C3, C4, C5, C6",,0.1uF,4,490-6322-2-ND,
-D1,BAT54C,Common cathode diode array,1,BAT54C-FDITR-ND,https://www.diodes.com/assets/Datasheets/ds11005.pdf
-U1,MCP1700,3.3V regulator,1,MCP1700T3302ETTTR-ND,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
-U2,ATXMEGA32A4U,ATXMEGA mcu,1,ATXMEGA32A4U-MH-ND,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
-J1,CX70M-24P1 ,USB Type-C Receptacle,1,H125292CT-ND,https://www.hirose.com/product/en/download_file/key_name/CX70M-24P1/category/Drawing%20(2D)/doc_file_id/141189/?file_category_id=6&item_id=04800304000&is_series=
+Designator,Part,Value,Quantity,Digi-key Part Number,,Datasheet
+"R1, R2",,5.1k,2,311-5.10KLRCT-ND ,,
+"R3, R4, R5",,10k,3,311-10KJRCT-ND ,,
+"R6, R7",,100k,2,311-100KLRCT-ND ,,
+C1,,1uF,1,490-12701-2-ND,,
+C2,,10uF,1,490-6473-1-ND,,http://psearch.en.murata.com/capacitor/product/GRM21BR61C106KE15%23.html
+"C3, C4, C5, C6",,0.1uF,4,490-6322-2-ND,,
+D1,BAT54C,Common cathode diode array,1,BAT54C-FDITR-ND,,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+U1,MCP1700T3302,3.3V regulator,1,MCP1700T3302ETTTR-ND,,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
+U2,ATXMEGA32A4U-MH,ATXMEGA mcu,1,ATXMEGA32A4U-MH-ND,,http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+J1,CX70M-24P1 ,USB Type-C Receptacle,1,H125292CT-ND,,https://www.hirose.com/product/en/download_file/key_name/CX70M-24P1/category/Drawing%20(2D)/doc_file_id/141189/?file_category_id=6&item_id=04800304000&is_series=
+"J2, J3, J4",DNP,DNP,,,,
