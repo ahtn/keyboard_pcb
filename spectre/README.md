@@ -2,7 +2,7 @@
 
 Minimal component, 4x12 grid keyboard
 
-![Image of keyplus spectre](https://rawgit.com/ahtn/keyboard_pcb/master/spectre/spectre.png)
+![Image of keyplus spectre](https://rawgit.com/ahtn/keyboard_pcb/master/spectre/spectre.jpg)
 
 ## License
 
